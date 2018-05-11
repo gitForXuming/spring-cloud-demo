@@ -26,5 +26,8 @@ session：
 分布式锁：
 通过redis实现
 
+下一步引入：
+spring cloud configuration 、spring cloud bus、docker
+
 
 
