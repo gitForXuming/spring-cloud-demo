@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.mapper.UserMapper">
+    <resultMap id="findUser" type="com.entity.UserVO">
+        <result property="username" column="t_username"/>
+        <result property="password" column="t_password"/>
+    </resultMap>
+    <select id="findByName" resultMap="findUser" >
+        select * from (
+        select t_username,t_password ,rownum rn from userinfo t where t_username = #{name}  and rownum &lt;= #{end}
+        order by t_username asc ) WHERE rn > #{begin}
+    </select>
+
+    <select id="findByNameCount" parameterType="java.lang.String" resultType="int">
+        select count(*) from userinfo where t_username = #{name}
+    </select>
+
+</mapper>

@@ -1,0 +1,77 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: sc-zuul
+  redis:
+    host: localhost
+    port: 6379
+    timeout: 10000
+    pool:
+      max-active: 8
+      max-idle: 8
+      min-idle: 1
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+       defaultZone: http://127.0.0.1:8761/eureka,http://127.0.0.1:8762/eureka
+
+#
+zuul:
+  host:
+    max-total-connections: 500
+    connect-timeout-millis: 10000
+    socket-timeout-millis: 10000
+
+
+
+
+#当stripPrefix=true的时候 （http://127.0.0.1:8181/demo/user/list -> http://192.168.1.100:8080/user/list）
+#当stripPrefix=false的时候（http://127.0.0.1:8181/demo/user/list -> http://192.168.1.100:8080/demo/user/list）
+zuul:
+  ignoredServices: '*'
+  routes:
+    api-a:
+      stripPrefix: false
+      path: /demo/**
+      serviceid: sc-feign
+
+
+#饥饿加载
+ribbon:
+  eager-load:
+    enabled: true
+
+#无需检查会话（是否登录）的请求uri 正则表达式（多个,隔开）
+notCheckSessionUri: /demo/index,*/login,
+
+#服务过期时间配置,超过这个时间没有接收到心跳EurekaServer就会将这个实例剔除
+#注意，EurekaServer一定要设置eureka.server.eviction-interval-timer-in-ms否则这个配置无效，这个配置一般为服务刷新时间配置的三倍
+#默认90s
+eureka:
+  instance:
+    lease-expiration-duration-in-seconds: 15
+#服务刷新时间配置，每隔这个时间会主动心跳一次
+#默认30s
+eureka:
+  instance:
+    lease-renewal-interval-in-seconds: 5
+#eureka client刷新本地缓存时间
+#默认30s
+eureka:
+  client:
+    registryFetchIntervalSeconds: 5
+#eureka客户端ribbon刷新时间
+#默认30s
+ribbon:
+  ServerListRefreshInterval: 1000
+#关闭自我保护
+eureka:
+  server:
+    enable-self-preservation: false
+
+

@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>hello</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <!-- <link th:href="@{/css/bootstrap.min.css}" rel="stylesheet" />
+    <link th:href="@{/css/style.css}" rel="stylesheet" />-->
+    <link href='/demo/css/bootstrap.min.css' rel="stylesheet" />
+    <link href='/demo/css/style.css' rel="stylesheet" />
+    <!--<script th:href="@{~/js/jquery.min.js}" type="text/javascript"></script>
+    <script th:href="@{~/js/dlang.js}" type="text/javascript"></script>
+    <script th:href="@{~/js/dcommon.js}" type="text/javascript"></script>-->
+
+    <script type="text/javascript" src="/demo/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/demo/js/dlang.js" ></script>
+    <script type="text/javascript" src="/demo/js/dcommon.js" ></script>
+
+    <link th:href="@{/css/pageNav.css}" rel="stylesheet" />
+    <script type="text/javascript" src="/demo/js/pageNav.js" ></script>
+
+    <script type="text/javascript" th:inline="javascript">
+        var contextPath =  /*[[${contextPath}]]*/
+        $.namespace("demo.query");
+         demo.query = function () {
+            return{
+                init : function () {
+                    demo.common.buildHead(1);
+                },
+                ajaxQuery : function (pageSize) {
+                    var username =$("#username").val();
+                    var data = {username:username,password:"123456",pageCount:"10",pageSize:pageSize};
+                    $.ajax({
+                        type: 'POST',
+                        url: contextPath + "/user/ajax/find",
+                        data: data,
+                        success: function(data) {
+                            if(data==null) return;
+                            if(null != data.errorCode && ""!= data.errorCode && null!= data.errorMessage){
+                                alert(data.errorMessage);
+                                return false;
+                            }
+                            var statTable = document.getElementById("dataTable");
+                            while (statTable.rows.length > 1) {
+                                statTable.deleteRow(1);
+                            }
+                            var content = data.content;
+                            var html = "";
+                            for ( var i = 0; i < content.length; i++) {
+                                var stat = content[i];
+                                var newRow = statTable.insertRow(-1);
+                                html += "<tr>";
+                                html += "<td>" + (i + 1) + "</td>";
+                                html +="<td>" + stat.username + "</td>";
+                                html +="<td>" + stat.password + "</td>";
+                                $("#dataTable tbody").html(html);
+                            }
+                            var pageNavObj = null;//用于储存分页对象
+                            pageNavObj = new PageNavCreate("PageNavId",{
+                                pageCount:data.totalPage,
+                                currentPage:pageSize,
+                                perPageNum:10,
+                            });
+                            pageNavObj.afterClick(pageNavCallBack);
+
+                            function pageNavCallBack(clickPage){
+                                demo.query.ajaxQuery(clickPage);
+                            }
+                        },
+                        dataType: "json"
+                    });
+                }
+            }
+        }();
+    </script>
+</head>
+<body>
+<!--/*@thymesVar id="name" type="java.lang.String"*/-->
+    <form name="userForm" method="post">
+        <div class="container-fluid">
+             <span >
+                <input style="" type="text" id="username"  />&nbsp;&nbsp;
+                <input type="button" class="btn btn-primary lang" th:onclick="'javascript:demo.query.ajaxQuery(1);'" th:value="#{button.submit}" />
+             </span>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="span12">
+                    <a> 用户信息</a>
+                    <table id="dataTable" class="table table-bordered table-striped responsive-utilities">
+                        <thead>
+                        <tr>
+                            <th width="50"></th>
+                            <th width="50"><a id="userid">username</a></th>
+                            <th width="50"><a id="passid"  class="lang" langKey="passowrd">passowrd</a></th>
+                         </tr>
+                        </thead>
+                        <tbody>
+                            <tr th:each="user : ${users}"><!-- 其中user是个临时变量，像for(User user : userList)那样中的u-->
+                                <td />
+                                <td th:text="${user.username}"/>
+                                <td th:text="${user.password}"/>
+                            </tr>
+                        </tbody>
+                     </table>
+                 </div>
+            </div>
+         </div>
+        <nav aria-label="Page navigation" class="page-nav-outer" id="PageNavId"></nav>
+    </form>
+<script type="text/javascript">
+    demo.query.init();
+</script>
+</body>
+</html>

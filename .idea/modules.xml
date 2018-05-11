@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/sc-api/sc-api.iml" filepath="$PROJECT_DIR$/sc-api/sc-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sc-consumer/sc-consumer.iml" filepath="$PROJECT_DIR$/sc-consumer/sc-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sc-netflit-eureka/sc-netflit-eureka.iml" filepath="$PROJECT_DIR$/sc-netflit-eureka/sc-netflit-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sc-netflit-eureka-two/sc-netflit-eureka-two.iml" filepath="$PROJECT_DIR$/sc-netflit-eureka-two/sc-netflit-eureka-two.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sc-netflit-feign/sc-netflit-feign.iml" filepath="$PROJECT_DIR$/sc-netflit-feign/sc-netflit-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sc-netflit-feign-two/sc-netflit-feign-two.iml" filepath="$PROJECT_DIR$/sc-netflit-feign-two/sc-netflit-feign-two.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sc-netflit-zuul/sc-netflit-zuul.iml" filepath="$PROJECT_DIR$/sc-netflit-zuul/sc-netflit-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sc-service-provider-one/sc-service-provider-one.iml" filepath="$PROJECT_DIR$/sc-service-provider-one/sc-service-provider-one.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sc-service-provider-two/sc-service-provider-two.iml" filepath="$PROJECT_DIR$/sc-service-provider-two/sc-service-provider-two.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springCloud.iml" filepath="$PROJECT_DIR$/springCloud.iml" />
+    </modules>
+  </component>
+</project>
