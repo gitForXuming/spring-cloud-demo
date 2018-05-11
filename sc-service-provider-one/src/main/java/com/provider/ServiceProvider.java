@@ -70,6 +70,8 @@ public class ServiceProvider implements UserService{
 
     @RequestMapping(value = "/findUserByName" ,method = RequestMethod.GET)
     public Result findUserByName(String username, int pageCount, int pageSize) {
+        Result result = new Result();
+
        /* Result result = new Result();
         List<BaseVO> list = new ArrayList<BaseVO>();
         UserVO userInfo = new UserVO();
@@ -87,8 +89,6 @@ public class ServiceProvider implements UserService{
         result.setTotalCount(2);
         result.setTotalPage(1);
         return result;*/
-        Result result = new Result();
-
 
         if(distributedLockHandler.tryLock(readUserlock)){
             try{
@@ -106,10 +106,6 @@ public class ServiceProvider implements UserService{
                 distributedLockHandler.releaseLock(readUserlock);
             }
         }
-
-
-
-
         return result;
     }
 }

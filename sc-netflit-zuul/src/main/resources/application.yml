@@ -47,7 +47,7 @@ ribbon:
     enabled: true
 
 #无需检查会话（是否登录）的请求uri 正则表达式（多个,隔开）
-notCheckSessionUri: /demo/index,*/login,
+notCheckSessionUri: /demo/index,.+/login$,\D*\.\D*
 
 #服务过期时间配置,超过这个时间没有接收到心跳EurekaServer就会将这个实例剔除
 #注意，EurekaServer一定要设置eureka.server.eviction-interval-timer-in-ms否则这个配置无效，这个配置一般为服务刷新时间配置的三倍
@@ -59,12 +59,12 @@ eureka:
 #默认30s
 eureka:
   instance:
-    lease-renewal-interval-in-seconds: 5
+    lease-renewal-interval-in-seconds: 15
 #eureka client刷新本地缓存时间
 #默认30s
 eureka:
   client:
-    registryFetchIntervalSeconds: 5
+    registryFetchIntervalSeconds: 15
 #eureka客户端ribbon刷新时间
 #默认30s
 ribbon:
