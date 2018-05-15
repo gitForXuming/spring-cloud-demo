@@ -24,12 +24,16 @@ myBatis + oracle , redis
 session：
 通过spring session 持久到redis ,应用在 zuul层,会话校验也在zuul层
 将sessionID addZuulRequestHeader到下一个服务，下个服务通过sessionID去redis操作session(感觉比较low)
+已经验证通过nginx轮询到多个zull session可以共享
 
 分布式锁：
 通过redis实现
 
+配置文件：
+spring cloud configuration （添加手动刷新不生效 考虑引入RabbitMQ）
+
 下一步计划引入：
-spring cloud configuration 、spring cloud bus、docker
+spring cloud bus 、docker
 
 
 
