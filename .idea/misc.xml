@@ -18,6 +18,7 @@
         <option value="$PROJECT_DIR$/sc-netflit-feign/pom.xml" />
         <option value="$PROJECT_DIR$/sc-netflit-feign-two/pom.xml" />
         <option value="$PROJECT_DIR$/sc-config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/sc-netflit-zuul-two/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

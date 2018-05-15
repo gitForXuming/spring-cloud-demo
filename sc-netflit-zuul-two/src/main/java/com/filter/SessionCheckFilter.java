@@ -77,7 +77,7 @@ public class SessionCheckFilter extends ZuulFilter{
         try{
             Object loogn = session.getAttribute("logon")==null?"0":session.getAttribute("logon").toString();
             if("1".equals(loogn)){
-                session.setAttribute("invokenFlag","zuulOne");
+                session.setAttribute("invokenFlag","zuulTwo");
                 LOGGER.info("用户已经登录");
                 context.setSendZuulResponse(true);// 对该请求进行路由
                 context.setResponseStatusCode(200); // 返回200正确响应

@@ -1,0 +1,17 @@
+spring:
+  cloud:
+    config:
+      name: sc-config
+      label: master
+      profile: dev
+      uri: http://127.0.0.1:8888
+      discovery:
+        enabled: true
+        service-id: config-server
+management:
+  security:
+    enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: "*"
