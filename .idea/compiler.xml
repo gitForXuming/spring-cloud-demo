@@ -23,30 +23,29 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="sc-api" />
+        <module name="sc-config-server" />
         <module name="sc-consumer" />
         <module name="sc-netflit-eureka" />
         <module name="sc-netflit-eureka-two" />
         <module name="sc-netflit-feign" />
         <module name="sc-netflit-feign-two" />
-        <module name="sc-netflit-fergn" />
         <module name="sc-netflit-zuul" />
         <module name="sc-service-provider-one" />
         <module name="sc-service-provider-two" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="1.8">
+    <bytecodeTargetLevel>
       <module name="sc-api" target="1.8" />
+      <module name="sc-config-server" target="1.8" />
       <module name="sc-consumer" target="1.8" />
       <module name="sc-netflit-eureka" target="1.8" />
       <module name="sc-netflit-eureka-two" target="1.8" />
       <module name="sc-netflit-feign" target="1.8" />
       <module name="sc-netflit-feign-two" target="1.8" />
       <module name="sc-netflit-zuul" target="1.8" />
-      <module name="sc-netflix-feign-two" target="1.8" />
       <module name="sc-service-provider-one" target="1.8" />
       <module name="sc-service-provider-two" target="1.8" />
       <module name="springCloud" target="1.7" />
-      <module name="springSession" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

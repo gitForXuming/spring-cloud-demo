@@ -1,0 +1,28 @@
+spring:
+    application:
+        name: config-server
+    profiles:
+      active: native
+    cloud:
+      config:
+        server:
+          native:
+            search-locations: H:/WORK/WebDevelopment/springCloud/sc-native-config
+            #search-locations: classpath:/config/
+
+
+server:
+  port: 8888
+
+eureka:
+  client:
+    instance:
+      prefer-ip-address: true #将自己的ip地址注册到Eureka服务中
+    service-url:
+     defaultZone: http://127.0.0.1:8761/eureka,http://127.0.0.1:8762/eureka
+
+#spring.cloud.config.server.git.uri=https://github.com/gitForXuming/spring-cloud-config/
+#spring.cloud.config.server.git.searchPaths=respo
+#spring.cloud.config.label=master
+#spring.cloud.config.server.git.username=username
+#spring.cloud.config.server.git.password=password

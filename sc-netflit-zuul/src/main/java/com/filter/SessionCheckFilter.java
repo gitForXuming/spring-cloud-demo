@@ -9,6 +9,7 @@ import com.netflix.zuul.exception.ZuulException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.stereotype.Component;
 
 import javax.servlet.http.HttpServletRequest;
@@ -24,11 +25,15 @@ import java.util.regex.Pattern;
  * @Version V1.0
  */
 @Component
+@RefreshScope // 使用该注解的类，会在接到SpringCloud配置中心配置刷新的时候，自动将新的配置更新到该类对应的字段中。
 public class SessionCheckFilter extends ZuulFilter{
     private static final Logger LOGGER = LoggerFactory.getLogger(SessionCheckFilter.class);
 
     @Value("${notCheckSessionUri}")
     private String notCheckSessionUri;
+
+    @Value("${profile}")
+    private String profile;
     @Override
     public String filterType() {
         return "pre";
@@ -80,7 +85,7 @@ public class SessionCheckFilter extends ZuulFilter{
                 if(uri.contains("ajax")){
                     try {
                         //跳转到登录页面
-                        context.setSendZuulResponse(false);// 对该请求进行路由
+                        context.setSendZuulResponse(false);//
                         context.setResponseStatusCode(200); // 返回200正确响应
                         context.getResponse().setHeader("content-type" ,"application/json;charset=utf-8");
                         Result result = new Result();

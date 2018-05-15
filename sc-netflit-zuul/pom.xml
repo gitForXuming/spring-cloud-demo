@@ -39,6 +39,17 @@
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<!--r项目api-->
+		<!--spring cloud config-->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-config</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+		<!--spring cloud config-->
 
 		<!-- Start: log4j2 -->
 		<!-- exclude默认logging依赖 -->

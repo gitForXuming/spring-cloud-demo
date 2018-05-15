@@ -1,0 +1,6 @@
+profile: dev
+oracle:
+  name: oracle
+  url:  jdbc:oracle:thin:@163.1.9.94:1521:ebank
+  username: ebankUAT
+  password: ebankUATprofile
