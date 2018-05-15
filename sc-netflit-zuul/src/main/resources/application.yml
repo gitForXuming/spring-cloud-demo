@@ -20,10 +20,11 @@ eureka:
     service-url:
        defaultZone: http://127.0.0.1:8761/eureka,http://127.0.0.1:8762/eureka
 
+ribb
 #
 zuul:
   host:
-    max-total-connections: 500
+    max-total-connections: 5000
     connect-timeout-millis: 10000
     socket-timeout-millis: 10000
 
@@ -54,7 +55,7 @@ notCheckSessionUri: /demo/index,.+/login$,\D*\.\D*
 #默认90s
 eureka:
   instance:
-    lease-expiration-duration-in-seconds: 15
+    lease-expiration-duration-in-seconds: 30
 #服务刷新时间配置，每隔这个时间会主动心跳一次
 #默认30s
 eureka:
@@ -65,13 +66,6 @@ eureka:
 eureka:
   client:
     registryFetchIntervalSeconds: 15
-#eureka客户端ribbon刷新时间
-#默认30s
-ribbon:
-  ServerListRefreshInterval: 1000
-#关闭自我保护
-eureka:
-  server:
-    enable-self-preservation: false
+
 
 

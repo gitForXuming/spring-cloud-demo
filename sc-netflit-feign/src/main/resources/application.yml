@@ -31,39 +31,19 @@ eureka:
        defaultZone: http://127.0.0.1:8761/eureka,http://127.0.0.1:8762/eureka
 
 #开启断路器
-feign:
-  hystrix:
-    enabled: true
-  compression:
-    request:
-      enabled: true
-    response:
-      enabled: true
 
-ribbon:
-  ConnectTimeout: 500
-  ReadTimeout: 5000
 #开启响应压缩功能
-feign:
-  compression:
-    response:
-      enabled:  true
 
 #指定压缩请求数据类型
-feign:
-  compression:
-    request:
-      mime-types: text/xml;application/xml;application/json
 ribbon:
   eager-load:
     enabled: true  #饥饿加载模式 启动的时候就创建ribbon客户端
     clients:   sc-service-provider   #以逗号隔开
 
-
 #
 sc-service-provider:
   ribbon:
-    ConnectTimeout: 500
+    ConnectTimeout: 5000
     ReadTimeout: 10000
 
 #服务过期时间配置,超过这个时间没有接收到心跳EurekaServer就会将这个实例剔除
@@ -71,22 +51,14 @@ sc-service-provider:
 #默认90s
 eureka:
   instance:
-    lease-expiration-duration-in-seconds: 15
+    lease-expiration-duration-in-seconds: 30
 #服务刷新时间配置，每隔这个时间会主动心跳一次
 #默认30s
 eureka:
   instance:
-    lease-renewal-interval-in-seconds: 5
+    lease-renewal-interval-in-seconds: 15
 #eureka client刷新本地缓存时间
 #默认30s
 eureka:
   client:
-    registryFetchIntervalSeconds: 5
-#eureka客户端ribbon刷新时间
-#默认30s
-ribbon:
-  ServerListRefreshInterval: 1000
-#关闭自我保护
-eureka:
-  server:
-    enable-self-preservation: false
+    registryFetchIntervalSeconds: 15
