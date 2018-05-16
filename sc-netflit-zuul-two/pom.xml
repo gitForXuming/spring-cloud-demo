@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com</groupId>
-	<artifactId>sc-netflit-zuul</artifactId>
+	<artifactId>sc-netflit-zuul-two</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>sc-netflit-zuul</name>
+	<name>sc-netflit-zuul-two</name>
 	<description>sc-netflit-zuul</description>
 
 	<parent>
@@ -23,6 +23,8 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
 		<spring-cloud.version>Finchley.RC1</spring-cloud.version>
+		<maven.test.skip>true</maven.test.skip>
+		<skipTests>true</skipTests><!--package时跳过 tests-->
 	</properties>
 
 	<dependencies>
@@ -36,7 +38,7 @@
 		<dependency>
 			<groupId>com</groupId>
 			<artifactId>sc-api</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>1.0-SNAPSHOT</version>
 		</dependency>
 		<!--r项目api-->
 		<!--spring cloud config-->

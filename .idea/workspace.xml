@@ -2,61 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6cc93bd-1d57-4ce8-a53a-d50cba500908" name="Default" comment="git commit">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_16_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_turbine_turbine_core_1_0_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_turbine_2_0_0_RC1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_turbine_2_0_0_RC1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sc-api/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sc-api/.mvn/wrapper/maven-wrapper.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sc-api/.mvn/wrapper/maven-wrapper.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sc-api/mvnw" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sc-api/mvnw.cmd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sc-api/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sc-api/src/main/java/com/ScApiApplication.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sc-api/src/main/java/com/base/Constant.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sc-api/src/main/java/com/entity/BaseVO.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sc-api/src/main/java/com/entity/Result.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sc-api/src/main/java/com/entity/UserVO.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sc-api/src/main/java/com/service/UserService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sc-api/src/main/resources/application.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sc-api/src/test/java/com/ScApiApplicationTests.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sc-consumer/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sc-consumer/.mvn/wrapper/maven-wrapper.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sc-consumer/.mvn/wrapper/maven-wrapper.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sc-consumer/mvnw" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sc-consumer/mvnw.cmd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sc-consumer/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sc-consumer/src/main/java/com/ScConsumerApplication.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sc-consumer/src/main/java/com/controller/HelloController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sc-consumer/src/main/java/com/service/UserService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sc-consumer/src/main/java/com/service/impl/UserServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sc-consumer/src/main/resources/application.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sc-consumer/src/test/java/com/ScConsumerApplicationTests.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-netflit-eureka-two/pom.xml" afterPath="$PROJECT_DIR$/sc-netflit-eureka-two/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-netflit-eureka/pom.xml" afterPath="$PROJECT_DIR$/sc-netflit-eureka/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-netflit-feign-two/pom.xml" afterPath="$PROJECT_DIR$/sc-netflit-feign-two/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-netflit-feign/pom.xml" afterPath="$PROJECT_DIR$/sc-netflit-feign/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-netflit-feign/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/sc-netflit-feign/src/main/resources/application.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-netflit-zuul-two/pom.xml" afterPath="$PROJECT_DIR$/sc-netflit-zuul-two/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-netflit-zuul-two/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/sc-netflit-zuul-two/src/main/resources/application.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-netflit-zuul/pom.xml" afterPath="$PROJECT_DIR$/sc-netflit-zuul/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-netflit-zuul/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/sc-netflit-zuul/src/main/resources/application.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-service-provider-one/pom.xml" afterPath="$PROJECT_DIR$/sc-service-provider-one/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-service-provider-one/src/main/java/com/controller/HelloController.java" afterPath="$PROJECT_DIR$/sc-service-provider-one/src/main/java/com/controller/HelloController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-service-provider-one/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/sc-service-provider-one/src/main/resources/application.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-service-provider-two/pom.xml" afterPath="$PROJECT_DIR$/sc-service-provider-two/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-service-provider-two/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/sc-service-provider-two/src/main/resources/application.yml" />
     </list>
     <ignored path="springCloud.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -109,41 +63,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sc-netflit-feign/src/main/resources/application.yml">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sc-service-provider-one/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="20" column="18" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sc-service-provider-two/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="654">
-              <caret line="70" column="36" selection-start-line="70" selection-start-column="36" selection-end-line="70" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sc-netflit-zuul-two/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="55" column="11" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServiceProvider.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sc-service-provider-one/src/main/java/com/provider/ServiceProvider.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+            <state relative-caret-position="233">
+              <caret line="15" column="59" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -170,7 +94,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sc-netflit-feign-two/src/main/resources/static/js/dcommon.js" />
         <option value="$PROJECT_DIR$/sc-netflit-feign/src/main/java/com/controller/IndexController.java" />
         <option value="$PROJECT_DIR$/sc-netflit-feign-two/src/main/java/com/controller/IndexController.java" />
         <option value="$PROJECT_DIR$/sc-service-provider-one/src/main/java/com/mapper/UserMapper.java" />
@@ -184,7 +107,6 @@
         <option value="$PROJECT_DIR$/sc-netflit-eureka-two/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/sc-netflit-eureka/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/sc-service-provider-one/src/main/java/com/provider/ServiceProvider.java" />
-        <option value="$PROJECT_DIR$/sc-netflit-eureka/pom.xml" />
         <option value="$PROJECT_DIR$/sc-netflit-feign/src/main/java/com/controller/UserController.java" />
         <option value="$PROJECT_DIR$/sc-config-server/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/sc-config-server/src/main/java/com/ScConfigServerApplication.java" />
@@ -205,15 +127,9 @@
         <option value="$PROJECT_DIR$/sc-netflit-feign-two/src/main/resources/templates/footer.html" />
         <option value="$PROJECT_DIR$/sc-netflit-feign-two/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/sc-api/src/main/java/com/App.java" />
-        <option value="$PROJECT_DIR$/sc-service-provider-two/pom.xml" />
-        <option value="$PROJECT_DIR$/sc-service-provider-one/pom.xml" />
-        <option value="$PROJECT_DIR$/sc-netflit-zuul/pom.xml" />
-        <option value="$PROJECT_DIR$/sc-netflit-feign-two/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/sc-api/src/main/java/com/service/UserService.java" />
         <option value="$PROJECT_DIR$/sc-api/pom.xml" />
-        <option value="$PROJECT_DIR$/sc-netflit-feign/pom.xml" />
-        <option value="$PROJECT_DIR$/sc-netflit-zuul-two/pom.xml" />
         <option value="$PROJECT_DIR$/sc-netflit-zuul/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/sc-netflit-zuul-two/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/sc-netflit-feign/src/main/resources/application.yml" />
@@ -221,6 +137,14 @@
         <option value="$PROJECT_DIR$/sc-service-provider-one/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/sc-service-provider-two/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/sc-netflit-feign/src/main/resources/templates/user.html" />
+        <option value="$PROJECT_DIR$/sc-netflit-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/sc-netflit-eureka-two/pom.xml" />
+        <option value="$PROJECT_DIR$/sc-netflit-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/sc-netflit-feign-two/pom.xml" />
+        <option value="$PROJECT_DIR$/sc-netflit-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/sc-netflit-zuul-two/pom.xml" />
+        <option value="$PROJECT_DIR$/sc-service-provider-one/pom.xml" />
+        <option value="$PROJECT_DIR$/sc-service-provider-two/pom.xml" />
       </list>
     </option>
   </component>
@@ -243,7 +167,38 @@
     </option>
   </component>
   <component name="MavenProjectNavigator">
-    <treeState />
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="sc-netflit-zuul" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="sc-netflit-zuul" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
@@ -302,6 +257,34 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springCloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springCloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sc-service-provider-two" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springCloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springCloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sc-service-provider-one" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -315,7 +298,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../IntelliJWorkSpace/perbank" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15234375" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.35023043" />
     <property name="SearchEverywhereHistoryKey" value="prolemes&#9;null&#9;null" />
   </component>
   <component name="RecentsManager">
@@ -334,7 +317,7 @@
       <recent name="H:\WORK\WebDevelopment\springCloud\sc-service-provider-two" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ScNetflitFeignApplication">
+  <component name="RunManager" selected="Spring Boot.ScNetflitZuulApplication">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -891,7 +874,7 @@
       <workItem from="1526311851156" duration="2083000" />
       <workItem from="1526346789067" duration="26627000" />
       <workItem from="1526389347783" duration="6057000" />
-      <workItem from="1526433039558" duration="14906000" />
+      <workItem from="1526433039558" duration="17442000" />
     </task>
     <task id="LOCAL-00001" summary="git commit">
       <created>1526023220074</created>
@@ -970,11 +953,18 @@
       <option name="project" value="LOCAL" />
       <updated>1526383201527</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="change sc-api project to a maven project ,not a springboot project">
+      <created>1526460988634</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1526460988634</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="261102000" />
+    <option name="totallyTimeSpent" value="263638000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="2" width="1934" height="1036" extended-state="0" />
@@ -986,12 +976,12 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295063" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5453502" sideWeight="0.5042965" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295063" sideWeight="0.5042965" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33727175" sideWeight="0.4890388" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.61538464" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295063" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295063" sideWeight="0.49570355" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6854191" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295063" sideWeight="0.49785176" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295063" sideWeight="0.49785176" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18474758" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -1021,7 +1011,8 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="git commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="git commit" />
+    <MESSAGE value="change sc-api project to a maven project ,not a springboot project" />
+    <option name="LAST_COMMIT_MESSAGE" value="change sc-api project to a maven project ,not a springboot project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1060,36 +1051,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sc-config-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sc-native-config/sc-config-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sc-netflit-zuul/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sc-netflit-zuul-two/src/main/java/com/ScNetflitZuulApplication.java" />
-    <entry file="file://$PROJECT_DIR$/sc-netflit-zuul-two/src/main/java/com/filter/TokenCheckFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sc-netflit-zuul-two/src/main/java/com/filter/FirstFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -1295,62 +1256,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sc-netflit-feign/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sc-netflit-zuul/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="18" column="13" selection-start-line="13" selection-start-column="5" selection-end-line="18" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sc-netflit-feign-two/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sc-service-provider-one/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="32" column="21" selection-start-line="28" selection-start-column="8" selection-end-line="32" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sc-netflit-zuul-two/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sc-service-provider-two/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sc-netflit-zuul/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="354">
@@ -1454,8 +1359,104 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sc-netflit-zuul-two/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="55" column="11" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="11" />
+        <state relative-caret-position="386">
+          <caret line="60" column="11" selection-start-line="60" selection-start-column="11" selection-end-line="60" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-889">
+          <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-maven-plugin/2.0.1.RELEASE/spring-boot-maven-plugin-2.0.1.RELEASE.jar!/META-INF/maven/plugin.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="311" column="23" selection-start-line="311" selection-start-column="16" selection-end-line="311" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc-netflit-zuul/hs_err_pid4876.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8221">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc-netflit-zuul/hs_err_pid14784.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="320" column="0" selection-start-line="320" selection-start-column="0" selection-end-line="320" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc-netflit-eureka/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="26" column="58" selection-start-line="25" selection-start-column="8" selection-end-line="26" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc-netflit-eureka-two/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="26" column="58" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc-netflit-feign/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="26" column="58" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc-netflit-feign-two/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="26" column="58" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc-netflit-zuul/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="26" column="58" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc-netflit-zuul-two/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="26" column="58" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc-service-provider-two/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="26" column="58" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc-service-provider-one/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="15" column="59" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
           <folding />
         </state>
       </provider>
@@ -1469,7 +1470,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.35023043" />
               </list>
             </option>
           </splitter-proportions>
@@ -1481,7 +1482,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.35023043" />
               </list>
             </option>
           </splitter-proportions>
@@ -1516,7 +1517,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.35023043" />
                 <option value="0.6" />
               </list>
             </option>
