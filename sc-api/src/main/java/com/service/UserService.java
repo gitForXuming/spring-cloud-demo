@@ -27,6 +27,6 @@ public interface UserService {
     public List<BaseVO> findUsers();
 
     @RequestMapping(value = "/findUserByName" ,method = RequestMethod.GET)
-    public Result findUserByName(String username ,int pageCount, int pageSize);
+    public Result findUserByName(String username, int pageCount, int pageSize);
 
 }

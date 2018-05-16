@@ -5,7 +5,6 @@
       <module fileurl="file://$PROJECT_DIR$/sc-api/sc-api.iml" filepath="$PROJECT_DIR$/sc-api/sc-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/sc-api/src/test/sc-api.iml" filepath="$PROJECT_DIR$/sc-api/src/test/sc-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/sc-config-server/sc-config-server.iml" filepath="$PROJECT_DIR$/sc-config-server/sc-config-server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/sc-consumer/sc-consumer.iml" filepath="$PROJECT_DIR$/sc-consumer/sc-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/sc-netflit-eureka/sc-netflit-eureka.iml" filepath="$PROJECT_DIR$/sc-netflit-eureka/sc-netflit-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/sc-netflit-eureka-two/sc-netflit-eureka-two.iml" filepath="$PROJECT_DIR$/sc-netflit-eureka-two/sc-netflit-eureka-two.iml" />
       <module fileurl="file://$PROJECT_DIR$/sc-netflit-feign/sc-netflit-feign.iml" filepath="$PROJECT_DIR$/sc-netflit-feign/sc-netflit-feign.iml" />

@@ -20,7 +20,6 @@ eureka:
     service-url:
        defaultZone: http://127.0.0.1:8761/eureka,http://127.0.0.1:8762/eureka
 
-ribb
 #
 zuul:
   host:
@@ -43,9 +42,9 @@ zuul:
 
 
 #饥饿加载
-ribbon:
-  eager-load:
-    enabled: true
+#ribbon:
+#  eager-load:
+#    enabled: true
 
 #无需检查会话（是否登录）的请求uri 正则表达式（多个,隔开）
 notCheckSessionUri: /demo/index,.+/login$,\D*\.\D*
