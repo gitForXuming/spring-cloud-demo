@@ -23,7 +23,7 @@ myBatis + oracle , redis
 
 session：
 通过spring session 持久到redis ,应用在 zuul层,会话校验也在zuul层
-将sessionID addZuulRequestHeader到下一个服务，下个服务通过sessionID去redis操作session(感觉比较low)
+设置 sensitiveHeaders: Authorization 将会话传递到下一个服务（下一个服务也必须集成spring session）
 已经验证通过nginx轮询到多个zull session可以共享
 
 分布式锁：

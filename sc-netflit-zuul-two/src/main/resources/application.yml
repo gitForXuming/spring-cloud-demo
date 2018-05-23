@@ -37,6 +37,7 @@ zuul:
   routes:
     api-a:
       stripPrefix: false
+      sensitiveHeaders: Authorization
       path: /demo/**
       serviceid: sc-feign
 

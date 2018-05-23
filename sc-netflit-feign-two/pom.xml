@@ -75,12 +75,17 @@
 		</dependency>
 		<!-- End: log4j2 -->
 
-		<!--redis集成-->
+		<!--redis集成 spring session-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-redis</artifactId>
 		</dependency>
-		<!--redis集成-->
+
+		<dependency>
+			<groupId>org.springframework.session</groupId>
+			<artifactId>spring-session-data-redis</artifactId>
+		</dependency>
+		<!--redis集成 spring session-->
 
 		<!--spring boot web-->
 		<dependency>

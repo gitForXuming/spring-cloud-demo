@@ -65,8 +65,9 @@ public class UserController extends BaseController {
             result = userServiceImplRemote.findUserByName(username,1,1);
 
             if (result.getContent().size()>0){
-                String sessionID = request.getHeader("sessionID");
-                redisTemplate.opsForHash().put(Constant.SESSION_PREFIX+sessionID,Constant.SESSION_ATTRIBUTE_PREFIX+"logon","1");
+               /* String sessionID = request.getHeader("sessionID");
+                redisTemplate.opsForHash().put(Constant.SESSION_PREFIX+sessionID,Constant.SESSION_ATTRIBUTE_PREFIX+"logon","1");*/
+                request.getSession().setAttribute("logon","1");
             }
         }catch(Exception e){
             result.setErrorCode("0000");

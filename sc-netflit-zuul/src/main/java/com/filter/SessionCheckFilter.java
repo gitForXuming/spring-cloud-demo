@@ -74,6 +74,7 @@ public class SessionCheckFilter extends ZuulFilter{
         RequestContext context = RequestContext.getCurrentContext();
         HttpServletRequest request = context.getRequest();
         HttpSession session = request.getSession();
+
         try{
             Object loogn = session.getAttribute("logon")==null?"0":session.getAttribute("logon").toString();
             if("1".equals(loogn)){
