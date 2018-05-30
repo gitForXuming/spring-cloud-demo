@@ -1,10 +1,12 @@
 package com.hystrix;
 
+import com.apiImpl.UserServiceImplRemote;
 import com.entity.BaseVO;
 import com.entity.Result;
 import com.entity.UserVO;
 import com.service.UserService;
 import feign.hystrix.FallbackFactory;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
 
@@ -16,10 +18,12 @@ import java.util.List;
  *
  * @Version V1.0
  */
-public class UserServiceFallbackFactory implements FallbackFactory<UserService>{
+@Component
+public class UserServiceFallbackFactory implements FallbackFactory<UserServiceImplRemote>{
+
     @Override
-    public UserService create(Throwable throwable) {
-        return new UserService(){
+    public UserServiceImplRemote create(Throwable throwable) {
+        return new UserServiceImplRemote(){
             @Override
             public String sayHello(String name) {
                 /*
@@ -32,19 +36,14 @@ public class UserServiceFallbackFactory implements FallbackFactory<UserService>{
                 return "remote invoken method sayHello failed";
             }
 
-            @Override
-            public UserVO getUserInfo(UserVO user) {
-                return null;
-            }
-
-            @Override
-            public List<BaseVO> findUsers() {
-                return null;
-            }
 
             @Override
             public Result findUserByName(String username, int pageCount, int pageSzie) {
-                return null;
+                Result result = new Result();
+                result.setResultType(String.class);
+                result.setErrorCode("8888");
+                result.setErrorMessage("remote invoken method findUserByName failed");
+                return result;
             }
         };
     }
