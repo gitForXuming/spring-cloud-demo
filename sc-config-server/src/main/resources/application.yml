@@ -13,11 +13,15 @@ spring:
 
 server:
   port: 8888
+  tomcat:
+    accept-count: 1000
+    max-threads: 1000
+    max-connections: 2000
 
 eureka:
   client:
     instance:
-      prefer-ip-address: true #½«×Ô¼ºµÄipµØÖ·×¢²áµ½Eureka·şÎñÖĞ
+      prefer-ip-address: true #å°†è‡ªå·±çš„ipåœ°å€æ³¨å†Œåˆ°EurekaæœåŠ¡ä¸­
     service-url:
      defaultZone: http://127.0.0.1:8761/eureka,http://127.0.0.1:8762/eureka
 

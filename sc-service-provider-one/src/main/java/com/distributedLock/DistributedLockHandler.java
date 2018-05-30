@@ -22,7 +22,7 @@ import java.util.concurrent.TimeUnit;
 public class DistributedLockHandler {
     private static final Logger logger = LoggerFactory.getLogger(DistributedLockHandler.class);
     private final static long LOCK_EXPIRE = 30 * 1000L;//单个业务持有锁的时间30s，防止死锁
-    private final static long LOCK_TRY_INTERVAL = 30L;//默认30ms尝试一次
+    private final static long LOCK_TRY_INTERVAL = 30L;//默认30ms尝试一次 根据自身服务器处理能力设定 或者作为参数区分不同业务尝试时间不定
     private final static long LOCK_TRY_TIMEOUT = 20 * 1000L;//默认尝试20s
 
     @Autowired

@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.servlet.support.RequestContext;
 
 import javax.validation.constraints.NotNull;
 
@@ -46,12 +47,15 @@ public class UserController extends BaseController {
         try{
             result = userServiceImplRemote.findUserByName(user.getUsername(),1,1);
 
-            if (result.getContent().size()>0){
+            if (null!=result.getContent()&&result.getContent().size()>0){
                 String sessionID = request.getHeader("sessionID");
-             }
+             }else{
+                result.setErrorCode("0000");
+                result.setErrorMessage("用户不存在");
+            }
         }catch(Exception e){
             result.setErrorCode("0000");
-            result.setErrorMessage(e.getMessage());
+            result.setErrorMessage(e.getLocalizedMessage());
         }
         return result;
     }
@@ -65,11 +69,13 @@ public class UserController extends BaseController {
     public String login(javax.servlet.http.HttpServletRequest request, String username, String password, Model model){
         Result result = null;
         try{
+            LOGGER.info("feignSeesionID:"+ request.getSession().getId());
             result = userServiceImplRemote.findUserByName(username,1,1);
 
             if (result.getContent().size()>0){
-                String sessionID = request.getHeader("sessionID");
-                redisTemplate.opsForHash().put(Constant.SESSION_PREFIX+sessionID,Constant.SESSION_ATTRIBUTE_PREFIX+"logon","1");
+                /*String sessionID = request.getHeader("sessionID");
+                redisTemplate.opsForHash().put(Constant.SESSION_PREFIX+sessionID,Constant.SESSION_ATTRIBUTE_PREFIX+"logon","1");*/
+                request.getSession().setAttribute("logon","1");
             }
         }catch(Exception e){
             result.setErrorCode("0000");

@@ -1,5 +1,9 @@
 server:
   port: 8080
+  tomcat:
+    accept-count: 1000
+    max-threads: 1000
+    max-connections: 2000
 
 spring:
   application:
@@ -22,9 +26,11 @@ eureka:
 #
 zuul:
   host:
-    max-total-connections: 5000
+    max-total-connections: 2000   #总连接数
+    max-per-route-connections: 2000 #每个路由连接数
     connect-timeout-millis: 10000
     socket-timeout-millis: 10000
+
 
 
 
@@ -36,6 +42,7 @@ zuul:
   routes:
     api-a:
       stripPrefix: false
+      sensitiveHeaders: Authorization #会过滤客户端附带的headers 此处过滤Authorization
       path: /demo/**
       serviceid: sc-feign
 

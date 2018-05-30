@@ -1,5 +1,9 @@
 server:
   port: 8082
+  tomcat:
+    accept-count: 1000
+    max-threads: 1000
+    max-connections: 2000
   servlet:
     context-path: "/demo"
 spring:
@@ -36,6 +40,11 @@ ribbon:
     enabled: true  #饥饿加载模式 启动的时候就创建ribbon客户端
     clients:   sc-service-provider   #以逗号隔开
 
+#开启断路器 这个地方idea报找不到 实际必须配置 不然hystrix不生效
+feign:
+ hystrix:
+  enabled: true
+
 #
 sc-service-provider:
   ribbon:
@@ -58,6 +67,11 @@ eureka:
 eureka:
   client:
     registryFetchIntervalSeconds: 15
+
+
+hystrix:
+  metrics:
+    polling-interval-ms:
 
 
 

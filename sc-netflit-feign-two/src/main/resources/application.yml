@@ -1,7 +1,12 @@
 server:
   port: 8083
+  tomcat:
+    accept-count: 1000
+    max-threads: 1000
+    max-connections: 2000
   servlet:
     context-path: "/demo"
+
 spring:
   application:
     name: sc-feign
@@ -31,7 +36,10 @@ eureka:
        defaultZone: http://127.0.0.1:8761/eureka,http://127.0.0.1:8762/eureka
 
 #开启断路器
-
+#开启断路器 这个地方idea报找不到 实际必须配置 不然hystrix不生效
+feign:
+ hystrix:
+  enabled: true
 #开启响应压缩功能
 
 #指定压缩请求数据类型

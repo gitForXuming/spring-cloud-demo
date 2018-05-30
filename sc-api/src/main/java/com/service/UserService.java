@@ -17,16 +17,16 @@ import java.util.List;
  * @Version V1.0
  */
 public interface UserService {
-    @RequestMapping(value = "/sayHello" ,method = RequestMethod.GET)
+
     public String sayHello(String name);
 
-    @RequestMapping(value = "/getUserInfo" ,method = RequestMethod.GET)
+
     public UserVO getUserInfo(UserVO user);
 
-    @RequestMapping(value = "/findUsers" ,method = RequestMethod.GET)
+
     public List<BaseVO> findUsers();
 
-    @RequestMapping(value = "/findUserByName" ,method = RequestMethod.GET)
+
     public Result findUserByName(String username, int pageCount, int pageSize);
 
 }

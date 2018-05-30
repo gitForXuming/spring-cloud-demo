@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RequestParam;
  * @Version V1.0
  */
 @FeignClient(value = "sc-service-provider",fallback = UserServiceFallbackFactory.class) //绑定服务名
-public interface UserServiceImplRemote extends UserService{
+public interface UserServiceImplRemote{
     @RequestMapping(value = "/sayHello" ,method = RequestMethod.GET)
     public String sayHello(@RequestParam("name") String name);
 
