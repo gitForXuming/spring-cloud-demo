@@ -1,5 +1,6 @@
 package com.entity;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -15,7 +16,7 @@ public class Result {
     private Class resultType;
     private long totalCount;
     private long totalPage;
-    private List content;
+    private List content = new ArrayList();
     private String errorCode;
     private String errorMessage;
 
