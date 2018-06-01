@@ -21,7 +21,7 @@ import javax.servlet.http.HttpServletResponse;
 public class MyInterceptor  implements HandlerInterceptor {
     private static final Logger LOGGER = LoggerFactory.getLogger(MyInterceptor.class);
 
-    private static ThreadLocal<Long> time = new ThreadLocal<Long>(){
+    private  static final ThreadLocal<Long> time = new ThreadLocal<Long>(){
         @Override
         protected Long initialValue() {
             return super.initialValue();
@@ -37,6 +37,7 @@ public class MyInterceptor  implements HandlerInterceptor {
 
     @Override
     public void postHandle(HttpServletRequest request, HttpServletResponse response, Object handler, @Nullable ModelAndView modelAndView) throws Exception {
+
 
     }
 

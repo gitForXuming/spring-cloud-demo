@@ -45,6 +45,10 @@ feign:
  hystrix:
   enabled: true
 
+hystrix:
+  threadpool:
+    default:
+      coreSize: 1000
 #
 sc-service-provider:
   ribbon:
