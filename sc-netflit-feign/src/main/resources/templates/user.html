@@ -79,9 +79,10 @@
 <!--/*@thymesVar id="name" type="java.lang.String"*/-->
     <form name="userForm" method="post">
         <div class="container-fluid">
-             <span >
-                <input style="" type="text" id="username"  value="xuming"/>&nbsp;&nbsp;
-                <input type="button" class="btn btn-primary lang" th:onclick="'javascript:demo.query.ajaxQuery(1);'" th:value="#{button.submit}" />
+             <span style="display: inline-block;float: left;">
+                <label th:text="#{title.username} + '：'" style="display: inline-block;line-hight:12px"></label>
+                 <input style="" type="text" id="username"  value="xuming" />&nbsp;&nbsp;
+                <input type="button" class="btn btn-primary lang" th:onclick="'javascript:demo.query.ajaxQuery(1);'" th:value="#{button.query}"/>
              </span>
         </div>
 
@@ -93,8 +94,8 @@
                         <thead>
                         <tr>
                             <th width="50"></th>
-                            <th width="50"><a id="userid">username</a></th>
-                            <th width="50"><a id="passid"  class="lang" langKey="passowrd">passowrd</a></th>
+                            <th width="50"><a id="userid" th:text="#{title.username}">username</a></th>
+                            <th width="50"><a id="passid"  class="lang" langKey="passowrd" th:text="#{title.password}">passowrd</a></th>
                          </tr>
                         </thead>
                         <tbody>

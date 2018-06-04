@@ -3,28 +3,30 @@
 <head>
     <title>hello</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-   <!-- <link th:href="@{/css/bootstrap.min.css}" rel="stylesheet" />
-    <link th:href="@{/css/style.css}" rel="stylesheet" />-->
-    <link href='/demo/css/bootstrap.min.css' rel="stylesheet" />
-    <link href='/demo/css/style.css' rel="stylesheet" />
-    <!--<script th:href="@{~/js/jquery.min.js}" type="text/javascript"></script>
-    <script th:href="@{~/js/dlang.js}" type="text/javascript"></script>
-    <script th:href="@{~/js/dcommon.js}" type="text/javascript"></script>-->
+    <link th:href="@{{path}/css/bootstrap.min.css(path=${contextPath})}" rel="stylesheet" />
+    <link th:href="@{{path}/css/style.css(path=${contextPath})}" rel="stylesheet" />
+    <!--<link href='/demo/css/bootstrap.min.css' rel="stylesheet" />
+    <link href='/demo/css/style.css' rel="stylesheet" />-->
 
-    <script type="text/javascript" src="/demo/js/jquery.min.js"></script>
+    <script th:src="@{{path}/js/jquery.min.js(path=${contextPath})}" type="text/javascript"></script>
+    <script th:src="@{{path}/js/dlang.js(path=${contextPath})}" type="text/javascript"></script>
+    <script th:src="@{{path}/js/dcommon.js(path=${contextPath})}" type="text/javascript"></script>
+   <!-- <script type="text/javascript" src="/demo/js/jquery.min.js"></script>
     <script type="text/javascript" src="/demo/js/dlang.js" ></script>
-    <script type="text/javascript" src="/demo/js/dcommon.js" ></script>
+    <script type="text/javascript" src="/demo/js/dcommon.js" ></script>-->
 
-    <link th:href="@{/css/pageNav.css}" rel="stylesheet" />
-    <script type="text/javascript" src="/demo/js/pageNav.js" ></script>
+    <link th:href="@{{path}/css/pageNav.css(path=${contextPath})}" rel="stylesheet" />
+    <script th:src="@{{path}/js/pageNav.js(path=${contextPath})}" type="text/javascript" ></script>
 
     <script type="text/javascript" th:inline="javascript">
         var contextPath =  /*[[${contextPath}]]*/
         $.namespace("demo.query");
          demo.query = function () {
+            var contextPath = /*[[${contextPath}]]*/
             return{
                 init : function () {
-                    demo.common.buildHead(1);
+                    demo.common.buildHead(contextPath,1);
+                    demo.common.buildFooter(contextPath);
                 },
                 ajaxQuery : function (pageSize) {
                     var username =$("#username").val();
@@ -78,7 +80,7 @@
     <form name="userForm" method="post">
         <div class="container-fluid">
              <span >
-                <input style="" type="text" id="username"  />&nbsp;&nbsp;
+                <input style="" type="text" id="username"  value="xuming"/>&nbsp;&nbsp;
                 <input type="button" class="btn btn-primary lang" th:onclick="'javascript:demo.query.ajaxQuery(1);'" th:value="#{button.submit}" />
              </span>
         </div>
