@@ -4,6 +4,10 @@ github: https://github.com/gitForXuming/spring-cloud-demo.git </br>
 本次分享出来也是希望有高人帮忙提点一二，给一些建设性意见，帮助提升，早日使用到项目中，勿喷！ 交流QQ:443458144 加Q注明:git spring cloud
 共勉！
 
+srping boot 版本：2.0.1.RELEASE
+spring cloud版本：Finchley.RC1
+（考虑降一下 新版本资料少）
+
 项目访问：http://127.0.0.1:8081/demo/index
 
 目前架构：
