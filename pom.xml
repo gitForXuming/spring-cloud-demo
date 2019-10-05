@@ -8,25 +8,66 @@
 	<artifactId>springCloud</artifactId>
 	<packaging>pom</packaging>
 	<version>1.0-SNAPSHOT</version>
-
 	<name>springCloud</name>
-	<!-- FIXME change it to the project's website -->
-	<url>http://www.example.com</url>
 	<modules>
-		<module>sc-api</module>
-		<module>sc-config-server</module>
-		<module>sc-service-provider-one</module>
-		<module>sc-netflit-eureka</module>
-		<module>sc-netflit-feign</module>
-		<module>sc-netflit-zuul</module>
+        <module>sc-api</module>
+        <module>sc-config-server</module>
+        <module>sc-service-provider-one</module>
+        <module>sc-service-provider-two</module>
+        <module>sc-netflix-eureka</module>
+        <module>sc-netflix-eureka-two</module>
+        <module>sc-netflix-feign</module>
+        <module>sc-netflix-feign-two</module>
+        <module>sc-netflix-zuul</module>
+        <module>sc-netflix-zuul-two</module>
+		<module>sc-netflix-dashboard</module>
 	</modules>
-	<properties>
+
+	<parent><!-- 设置整个微服务使用的spring boot版本-->
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.0.1.RELEASE</version>
+	</parent>
+
+	<properties> <!-- 全局设置-->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<maven.compiler.source>1.7</maven.compiler.source>
-		<maven.compiler.target>1.7</maven.compiler.target>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<java.version>1.8</java.version>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+
+		<spring-cloud.version>Finchley.RC1</spring-cloud.version>
+		<maven.test.skip>true</maven.test.skip>
+		<skipTests>true</skipTests><!--package时跳过 tests-->
 	</properties>
 
+
+	<repositories><!--仓库设置-->
+		<repository>
+			<id>spring-snapshots</id>
+			<name>Spring Snapshots</name>
+			<url>https://repo.spring.io/snapshot</url>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+		<repository>
+			<id>spring-milestones</id>
+			<name>Spring Milestones</name>
+			<url>https://repo.spring.io/milestone</url>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
+
+
 	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter</artifactId>
+		</dependency>
+
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
@@ -40,7 +81,7 @@
 			<dependency>
 				<groupId>org.springframework.cloud</groupId>
 				<artifactId>spring-cloud-dependencies</artifactId>
-				<version>Dalston.SR1</version>
+				<version>Finchley.RC1</version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>

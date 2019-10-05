@@ -1,44 +1,174 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6cc93bd-1d57-4ce8-a53a-d50cba500908" name="Default" comment="git commit">
+    <list default="true" id="ae0c0091-14e2-4004-a5b2-75bea990297e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sc-netflix-feign-two/src/main/resources/templates/footer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sc-netflix-feign/src/main/resources/templates/footer.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_dashboard_2_0_0_RC1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_0_0_RC1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_dashboard_2_0_0_RC1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_0_0_RC1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_d3js_3_4_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_2_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sc-netflit-feign-two/src/main/resources/templates/footer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sc-netflit-feign/src/main/resources/templates/footer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sc-netflix-dashboard/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sc-netflix-dashboard/.mvn/wrapper/MavenWrapperDownloader.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sc-netflix-dashboard/.mvn/wrapper/maven-wrapper.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sc-netflix-dashboard/.mvn/wrapper/maven-wrapper.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sc-netflix-dashboard/mvnw" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sc-netflix-dashboard/mvnw.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sc-netflix-dashboard/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sc-netflix-dashboard/src/main/java/com/ScNetflixDashboardApplication.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sc-netflix-dashboard/src/main/resources/application.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sc-netflix-dashboard/src/test/java/com/ScNetflixDashboardApplicationTests.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-netflit-eureka-two/pom.xml" afterPath="$PROJECT_DIR$/sc-netflit-eureka-two/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-netflit-eureka/pom.xml" afterPath="$PROJECT_DIR$/sc-netflit-eureka/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-netflit-feign-two/pom.xml" afterPath="$PROJECT_DIR$/sc-netflit-feign-two/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-netflit-feign-two/src/main/java/com/ScNetflitFeignTwoApplication.java" afterPath="$PROJECT_DIR$/sc-netflit-feign-two/src/main/java/com/ScNetflitFeignTwoApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-netflit-feign-two/src/main/java/com/controller/UserController.java" afterPath="$PROJECT_DIR$/sc-netflit-feign-two/src/main/java/com/controller/UserController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-netflit-feign/pom.xml" afterPath="$PROJECT_DIR$/sc-netflit-feign/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-netflit-feign/src/main/java/com/ScNetflitFeignApplication.java" afterPath="$PROJECT_DIR$/sc-netflit-feign/src/main/java/com/ScNetflitFeignApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-netflit-feign/src/main/java/com/controller/UserController.java" afterPath="$PROJECT_DIR$/sc-netflit-feign/src/main/java/com/controller/UserController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-netflit-zuul-two/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/sc-netflit-zuul-two/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-netflit-zuul/src/main/java/com/filter/FirstFilter.java" afterPath="$PROJECT_DIR$/sc-netflit-zuul/src/main/java/com/filter/FirstFilter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-netflit-zuul/src/main/java/com/filter/SessionCheckFilter.java" afterPath="$PROJECT_DIR$/sc-netflit-zuul/src/main/java/com/filter/SessionCheckFilter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-netflit-zuul/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/sc-netflit-zuul/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-service-provider-one/src/main/java/com/controller/HelloController.java" afterPath="$PROJECT_DIR$/sc-service-provider-one/src/main/java/com/controller/HelloController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-api/pom.xml" afterPath="$PROJECT_DIR$/sc-api/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-config-server/pom.xml" afterPath="$PROJECT_DIR$/sc-config-server/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-service-provider-one/pom.xml" afterPath="$PROJECT_DIR$/sc-service-provider-one/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-service-provider-one/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/sc-service-provider-one/src/main/resources/application.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-service-provider-two/pom.xml" afterPath="$PROJECT_DIR$/sc-service-provider-two/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springCloud.iml" afterPath="$PROJECT_DIR$/springCloud.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-eureka-two/.gitignore" afterPath="$PROJECT_DIR$/sc-netflix-eureka-two/.gitignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-eureka-two/.mvn/wrapper/maven-wrapper.jar" afterPath="$PROJECT_DIR$/sc-netflix-eureka-two/.mvn/wrapper/maven-wrapper.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-eureka-two/.mvn/wrapper/maven-wrapper.properties" afterPath="$PROJECT_DIR$/sc-netflix-eureka-two/.mvn/wrapper/maven-wrapper.properties" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-eureka-two/mvnw" afterPath="$PROJECT_DIR$/sc-netflix-eureka-two/mvnw" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-eureka-two/mvnw.cmd" afterPath="$PROJECT_DIR$/sc-netflix-eureka-two/mvnw.cmd" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-eureka-two/pom.xml" afterPath="$PROJECT_DIR$/sc-netflix-eureka-two/pom.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-eureka-two/src/main/java/com/ScNetflitEurekaTwoApplication.java" afterPath="$PROJECT_DIR$/sc-netflix-eureka-two/src/main/java/com/ScNetflixEurekaTwoApplication.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-eureka-two/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/sc-netflix-eureka-two/src/main/resources/application.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-eureka-two/src/test/java/com/ScNetflitEurekaTwoApplicationTests.java" afterPath="$PROJECT_DIR$/sc-netflix-eureka-two/src/test/java/com/ScNetflitEurekaTwoApplicationTests.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-eureka/.gitignore" afterPath="$PROJECT_DIR$/sc-netflix-eureka/.gitignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-eureka/.mvn/wrapper/maven-wrapper.jar" afterPath="$PROJECT_DIR$/sc-netflix-eureka/.mvn/wrapper/maven-wrapper.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-eureka/.mvn/wrapper/maven-wrapper.properties" afterPath="$PROJECT_DIR$/sc-netflix-eureka/.mvn/wrapper/maven-wrapper.properties" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-eureka/mvnw" afterPath="$PROJECT_DIR$/sc-netflix-eureka/mvnw" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-eureka/mvnw.cmd" afterPath="$PROJECT_DIR$/sc-netflix-eureka/mvnw.cmd" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-eureka/pom.xml" afterPath="$PROJECT_DIR$/sc-netflix-eureka/pom.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-eureka/src/main/java/com/ScNetflitEurekaApplication.java" afterPath="$PROJECT_DIR$/sc-netflix-eureka/src/main/java/com/ScNetflixEurekaApplication.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-eureka/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/sc-netflix-eureka/src/main/resources/application.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-eureka/src/test/java/com/ScNetflitEurekaApplicationTests.java" afterPath="$PROJECT_DIR$/sc-netflix-eureka/src/test/java/com/ScNetflitEurekaApplicationTests.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-feign-two/.gitignore" afterPath="$PROJECT_DIR$/sc-netflix-feign-two/.gitignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-feign-two/.mvn/wrapper/maven-wrapper.jar" afterPath="$PROJECT_DIR$/sc-netflix-feign-two/.mvn/wrapper/maven-wrapper.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-feign-two/.mvn/wrapper/maven-wrapper.properties" afterPath="$PROJECT_DIR$/sc-netflix-feign-two/.mvn/wrapper/maven-wrapper.properties" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-feign-two/mvnw" afterPath="$PROJECT_DIR$/sc-netflix-feign-two/mvnw" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-feign-two/mvnw.cmd" afterPath="$PROJECT_DIR$/sc-netflix-feign-two/mvnw.cmd" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-feign-two/pom.xml" afterPath="$PROJECT_DIR$/sc-netflix-feign-two/pom.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-feign-two/src/main/java/com/ScNetflitFeignTwoApplication.java" afterPath="$PROJECT_DIR$/sc-netflix-feign-two/src/main/java/com/ScNetflixFeignTwoApplication.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-feign-two/src/main/java/com/apiImpl/UserServiceImplRemote.java" afterPath="$PROJECT_DIR$/sc-netflix-feign-two/src/main/java/com/apiImpl/UserServiceImplRemote.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-feign-two/src/main/java/com/config/RedisConfig.java" afterPath="$PROJECT_DIR$/sc-netflix-feign-two/src/main/java/com/config/RedisConfig.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-feign-two/src/main/java/com/controller/BaseController.java" afterPath="$PROJECT_DIR$/sc-netflix-feign-two/src/main/java/com/controller/BaseController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-feign-two/src/main/java/com/controller/HelloController.java" afterPath="$PROJECT_DIR$/sc-netflix-feign-two/src/main/java/com/controller/HelloController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-feign-two/src/main/java/com/controller/IndexController.java" afterPath="$PROJECT_DIR$/sc-netflix-feign-two/src/main/java/com/controller/IndexController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-feign-two/src/main/java/com/controller/UserController.java" afterPath="$PROJECT_DIR$/sc-netflix-feign-two/src/main/java/com/controller/UserController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-feign-two/src/main/java/com/hystrix/UserServiceFallbackFactory.java" afterPath="$PROJECT_DIR$/sc-netflix-feign-two/src/main/java/com/hystrix/UserServiceFallbackFactory.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-feign-two/src/main/java/com/interceptor/MyInterceptor.java" afterPath="$PROJECT_DIR$/sc-netflix-feign-two/src/main/java/com/interceptor/MyInterceptor.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-feign-two/src/main/java/com/interceptor/WebAppConfig.java" afterPath="$PROJECT_DIR$/sc-netflix-feign-two/src/main/java/com/interceptor/WebAppConfig.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-feign-two/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/sc-netflix-feign-two/src/main/resources/application.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-feign-two/src/main/resources/log4j2.xml" afterPath="$PROJECT_DIR$/sc-netflix-feign-two/src/main/resources/log4j2.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-feign-two/src/main/resources/messages.properties" afterPath="$PROJECT_DIR$/sc-netflix-feign-two/src/main/resources/messages.properties" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-feign-two/src/main/resources/static/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/sc-netflix-feign-two/src/main/resources/static/css/bootstrap.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-feign-two/src/main/resources/static/css/pageNav.css" afterPath="$PROJECT_DIR$/sc-netflix-feign-two/src/main/resources/static/css/pageNav.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-feign-two/src/main/resources/static/css/style.css" afterPath="$PROJECT_DIR$/sc-netflix-feign-two/src/main/resources/static/css/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-feign-two/src/main/resources/static/js/dcommon.js" afterPath="$PROJECT_DIR$/sc-netflix-feign-two/src/main/resources/static/js/dcommon.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-feign-two/src/main/resources/static/js/dlang.js" afterPath="$PROJECT_DIR$/sc-netflix-feign-two/src/main/resources/static/js/dlang.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-feign-two/src/main/resources/static/js/jquery-1.5.2.js" afterPath="$PROJECT_DIR$/sc-netflix-feign-two/src/main/resources/static/js/jquery-1.5.2.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-feign-two/src/main/resources/static/js/jquery.min.js" afterPath="$PROJECT_DIR$/sc-netflix-feign-two/src/main/resources/static/js/jquery.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-feign-two/src/main/resources/static/js/pageNav.js" afterPath="$PROJECT_DIR$/sc-netflix-feign-two/src/main/resources/static/js/pageNav.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-feign-two/src/main/resources/static/js/test.js" afterPath="$PROJECT_DIR$/sc-netflix-feign-two/src/main/resources/static/js/test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-feign-two/src/main/resources/templates/header.html" afterPath="$PROJECT_DIR$/sc-netflix-feign-two/src/main/resources/templates/header.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-feign-two/src/main/resources/templates/hello.html" afterPath="$PROJECT_DIR$/sc-netflix-feign-two/src/main/resources/templates/hello.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-feign-two/src/main/resources/templates/login.html" afterPath="$PROJECT_DIR$/sc-netflix-feign-two/src/main/resources/templates/login.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-feign-two/src/main/resources/templates/user.html" afterPath="$PROJECT_DIR$/sc-netflix-feign-two/src/main/resources/templates/user.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-feign-two/src/test/java/com/ScNetflitFeignApplicationTests.java" afterPath="$PROJECT_DIR$/sc-netflix-feign-two/src/test/java/com/ScNetflitFeignApplicationTests.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-feign-two/src/test/java/com/ScNetflitFeignTwoApplicationTests.java" afterPath="$PROJECT_DIR$/sc-netflix-feign-two/src/test/java/com/ScNetflitFeignTwoApplicationTests.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-feign/.gitignore" afterPath="$PROJECT_DIR$/sc-netflix-feign/.gitignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-feign/.mvn/wrapper/maven-wrapper.jar" afterPath="$PROJECT_DIR$/sc-netflix-feign/.mvn/wrapper/maven-wrapper.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-feign/.mvn/wrapper/maven-wrapper.properties" afterPath="$PROJECT_DIR$/sc-netflix-feign/.mvn/wrapper/maven-wrapper.properties" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-feign/mvnw" afterPath="$PROJECT_DIR$/sc-netflix-feign/mvnw" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-feign/mvnw.cmd" afterPath="$PROJECT_DIR$/sc-netflix-feign/mvnw.cmd" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-feign/pom.xml" afterPath="$PROJECT_DIR$/sc-netflix-feign/pom.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-feign/src/main/java/com/ScNetflitFeignApplication.java" afterPath="$PROJECT_DIR$/sc-netflix-feign/src/main/java/com/ScNetflixFeignApplication.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-feign/src/main/java/com/apiImpl/UserServiceImplRemote.java" afterPath="$PROJECT_DIR$/sc-netflix-feign/src/main/java/com/apiImpl/UserServiceImplRemote.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-feign/src/main/java/com/config/ConfigBeans.java" afterPath="$PROJECT_DIR$/sc-netflix-feign/src/main/java/com/config/ConfigBeans.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-feign/src/main/java/com/config/RedisConfig.java" afterPath="$PROJECT_DIR$/sc-netflix-feign/src/main/java/com/config/RedisConfig.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-feign/src/main/java/com/controller/BaseController.java" afterPath="$PROJECT_DIR$/sc-netflix-feign/src/main/java/com/controller/BaseController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-feign/src/main/java/com/controller/HelloController.java" afterPath="$PROJECT_DIR$/sc-netflix-feign/src/main/java/com/controller/HelloController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-feign/src/main/java/com/controller/IndexController.java" afterPath="$PROJECT_DIR$/sc-netflix-feign/src/main/java/com/controller/IndexController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-feign/src/main/java/com/controller/UserController.java" afterPath="$PROJECT_DIR$/sc-netflix-feign/src/main/java/com/controller/UserController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-feign/src/main/java/com/hystrix/UserServiceFallbackFactory.java" afterPath="$PROJECT_DIR$/sc-netflix-feign/src/main/java/com/hystrix/UserServiceFallbackFactory.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-feign/src/main/java/com/interceptor/MyInterceptor.java" afterPath="$PROJECT_DIR$/sc-netflix-feign/src/main/java/com/interceptor/MyInterceptor.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-feign/src/main/java/com/interceptor/WebAppConfig.java" afterPath="$PROJECT_DIR$/sc-netflix-feign/src/main/java/com/interceptor/WebAppConfig.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-feign/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/sc-netflix-feign/src/main/resources/application.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-feign/src/main/resources/log4j2.xml" afterPath="$PROJECT_DIR$/sc-netflix-feign/src/main/resources/log4j2.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-feign/src/main/resources/messages.properties" afterPath="$PROJECT_DIR$/sc-netflix-feign/src/main/resources/messages.properties" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-feign/src/main/resources/static/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/sc-netflix-feign/src/main/resources/static/css/bootstrap.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-feign/src/main/resources/static/css/pageNav.css" afterPath="$PROJECT_DIR$/sc-netflix-feign/src/main/resources/static/css/pageNav.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-feign/src/main/resources/static/css/style.css" afterPath="$PROJECT_DIR$/sc-netflix-feign/src/main/resources/static/css/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-feign/src/main/resources/static/js/dcommon.js" afterPath="$PROJECT_DIR$/sc-netflix-feign/src/main/resources/static/js/dcommon.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-feign/src/main/resources/static/js/dlang.js" afterPath="$PROJECT_DIR$/sc-netflix-feign/src/main/resources/static/js/dlang.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-feign/src/main/resources/static/js/jquery-1.5.2.js" afterPath="$PROJECT_DIR$/sc-netflix-feign/src/main/resources/static/js/jquery-1.5.2.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-feign/src/main/resources/static/js/jquery.min.js" afterPath="$PROJECT_DIR$/sc-netflix-feign/src/main/resources/static/js/jquery.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-feign/src/main/resources/static/js/pageNav.js" afterPath="$PROJECT_DIR$/sc-netflix-feign/src/main/resources/static/js/pageNav.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-feign/src/main/resources/static/js/test.js" afterPath="$PROJECT_DIR$/sc-netflix-feign/src/main/resources/static/js/test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-feign/src/main/resources/templates/header.html" afterPath="$PROJECT_DIR$/sc-netflix-feign/src/main/resources/templates/header.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-feign/src/main/resources/templates/hello.html" afterPath="$PROJECT_DIR$/sc-netflix-feign/src/main/resources/templates/hello.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-feign/src/main/resources/templates/login.html" afterPath="$PROJECT_DIR$/sc-netflix-feign/src/main/resources/templates/login.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-feign/src/main/resources/templates/user.html" afterPath="$PROJECT_DIR$/sc-netflix-feign/src/main/resources/templates/user.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-feign/src/test/java/com/ScNetflitFeignApplicationTests.java" afterPath="$PROJECT_DIR$/sc-netflix-feign/src/test/java/com/ScNetflitFeignApplicationTests.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-zuul-two/.gitignore" afterPath="$PROJECT_DIR$/sc-netflix-zuul-two/.gitignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-zuul-two/.mvn/wrapper/maven-wrapper.jar" afterPath="$PROJECT_DIR$/sc-netflix-zuul-two/.mvn/wrapper/maven-wrapper.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-zuul-two/.mvn/wrapper/maven-wrapper.properties" afterPath="$PROJECT_DIR$/sc-netflix-zuul-two/.mvn/wrapper/maven-wrapper.properties" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-zuul-two/mvnw" afterPath="$PROJECT_DIR$/sc-netflix-zuul-two/mvnw" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-zuul-two/mvnw.cmd" afterPath="$PROJECT_DIR$/sc-netflix-zuul-two/mvnw.cmd" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-zuul-two/pom.xml" afterPath="$PROJECT_DIR$/sc-netflix-zuul-two/pom.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-zuul-two/src/main/java/com/ScNetflitZuulTwoApplication.java" afterPath="$PROJECT_DIR$/sc-netflix-zuul-two/src/main/java/com/ScNetflixZuulTwoApplication.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-zuul-two/src/main/java/com/filter/FirstFilter.java" afterPath="$PROJECT_DIR$/sc-netflix-zuul-two/src/main/java/com/filter/FirstFilter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-zuul-two/src/main/java/com/filter/SessionCheckFilter.java" afterPath="$PROJECT_DIR$/sc-netflix-zuul-two/src/main/java/com/filter/SessionCheckFilter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-zuul-two/src/main/java/com/filter/TokenCheckFilter.java" afterPath="$PROJECT_DIR$/sc-netflix-zuul-two/src/main/java/com/filter/TokenCheckFilter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-zuul-two/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/sc-netflix-zuul-two/src/main/resources/application.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-zuul-two/src/main/resources/bootstrap.yml" afterPath="$PROJECT_DIR$/sc-netflix-zuul-two/src/main/resources/bootstrap.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-zuul-two/src/main/resources/log4j2.xml" afterPath="$PROJECT_DIR$/sc-netflix-zuul-two/src/main/resources/log4j2.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-zuul-two/src/test/java/com/ScNetflitZuulApplicationTests.java" afterPath="$PROJECT_DIR$/sc-netflix-zuul-two/src/test/java/com/ScNetflitZuulApplicationTests.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-zuul-two/src/test/java/com/ScNetflitZuulTwoApplicationTests.java" afterPath="$PROJECT_DIR$/sc-netflix-zuul-two/src/test/java/com/ScNetflitZuulTwoApplicationTests.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-zuul/.gitignore" afterPath="$PROJECT_DIR$/sc-netflix-zuul/.gitignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-zuul/.mvn/wrapper/maven-wrapper.jar" afterPath="$PROJECT_DIR$/sc-netflix-zuul/.mvn/wrapper/maven-wrapper.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-zuul/.mvn/wrapper/maven-wrapper.properties" afterPath="$PROJECT_DIR$/sc-netflix-zuul/.mvn/wrapper/maven-wrapper.properties" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-zuul/mvnw" afterPath="$PROJECT_DIR$/sc-netflix-zuul/mvnw" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-zuul/mvnw.cmd" afterPath="$PROJECT_DIR$/sc-netflix-zuul/mvnw.cmd" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-zuul/pom.xml" afterPath="$PROJECT_DIR$/sc-netflix-zuul/pom.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-zuul/src/main/java/com/ScNetflitZuulApplication.java" afterPath="$PROJECT_DIR$/sc-netflix-zuul/src/main/java/com/ScNetflixZuulApplication.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-zuul/src/main/java/com/filter/FirstFilter.java" afterPath="$PROJECT_DIR$/sc-netflix-zuul/src/main/java/com/filter/FirstFilter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-zuul/src/main/java/com/filter/SessionCheckFilter.java" afterPath="$PROJECT_DIR$/sc-netflix-zuul/src/main/java/com/filter/SessionCheckFilter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-zuul/src/main/java/com/filter/TokenCheckFilter.java" afterPath="$PROJECT_DIR$/sc-netflix-zuul/src/main/java/com/filter/TokenCheckFilter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-zuul/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/sc-netflix-zuul/src/main/resources/application.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-zuul/src/main/resources/bootstrap.yml" afterPath="$PROJECT_DIR$/sc-netflix-zuul/src/main/resources/bootstrap.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-zuul/src/main/resources/log4j2.xml" afterPath="$PROJECT_DIR$/sc-netflix-zuul/src/main/resources/log4j2.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sc-netflit-zuul/src/test/java/com/ScNetflitZuulApplicationTests.java" afterPath="$PROJECT_DIR$/sc-netflix-zuul/src/test/java/com/ScNetflitZuulApplicationTests.java" />
     </list>
     <ignored path="springCloud.iws" />
     <ignored path=".idea/workspace.xml" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path=".idea/dataSources.local.xml" />
-    <ignored path="$PROJECT_DIR$/sc-netflix-eureka/target/" />
-    <ignored path="$PROJECT_DIR$/sc-netflit-eureka/target/" />
     <ignored path="$PROJECT_DIR$/sc-service-provider-one/target/" />
-    <ignored path="$PROJECT_DIR$/sc-service-provider-two/target/" />
-    <ignored path="$PROJECT_DIR$/sc-consumer/target/" />
-    <ignored path="$PROJECT_DIR$/Hystrix/target/" />
-    <ignored path="$PROJECT_DIR$/sc-netflit-zuul/target/" />
-    <ignored path="$PROJECT_DIR$/sc-netflit-eureka-two/target/" />
-    <ignored path="$PROJECT_DIR$/sc-netflit-fergn/target/" />
-    <ignored path="$PROJECT_DIR$/sc-api/target/" />
-    <ignored path="$PROJECT_DIR$/sc-netflit-feign/target/" />
-    <ignored path="$PROJECT_DIR$/sc-netflix-feign-two/target/" />
-    <ignored path="$PROJECT_DIR$/sc-netflit-feign-two/target/" />
-    <ignored path="$PROJECT_DIR$/springSession/target/" />
     <ignored path="$PROJECT_DIR$/sc-config-server/target/" />
-    <ignored path="$PROJECT_DIR$/sc-netflit-zuul-two/target/" />
+    <ignored path="$PROJECT_DIR$/sc-netflix-feign-two/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/sc-netflix-zuul-two/target/" />
+    <ignored path="$PROJECT_DIR$/sc-netflix-zuul/target/" />
+    <ignored path="$PROJECT_DIR$/sc-netflix-dashboard/target/" />
+    <ignored path="$PROJECT_DIR$/sc-netflix-eureka-two/target/" />
+    <ignored path="$PROJECT_DIR$/sc-netflix-eureka/target/" />
+    <ignored path="$PROJECT_DIR$/sc-service-provider-two/target/" />
+    <ignored path="$PROJECT_DIR$/sc-api/target/" />
+    <ignored path="$PROJECT_DIR$/sc-netflix-feign/target/" />
+    <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,64 +176,20 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CompilerWorkspaceConfiguration">
-    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
-  </component>
-  <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/springCloud$ScNetflitFeignApplication.coverage" NAME="ScNetflitFeignApplication Coverage Results" MODIFIED="1525774611467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
-  </component>
-  <component name="DatabaseView">
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_TABLE_DETAILS" value="true" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="springCloud" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="FirstFilter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sc-netflit-zuul/src/main/java/com/filter/FirstFilter.java">
+    <leaf>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="38" column="65" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="65" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RequestContext.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/zuul/zuul-core/1.3.1/zuul-core-1.3.1.jar!/com/netflix/zuul/context/RequestContext.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SessionCheckFilter.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sc-netflit-zuul/src/main/java/com/filter/SessionCheckFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="85" column="52" selection-start-line="85" selection-start-column="52" selection-end-line="85" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sc-netflit-zuul/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="41" column="22" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="22" />
+            <state relative-caret-position="250">
+              <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -111,77 +197,12 @@
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
-    </option>
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/sc-service-provider-one/src/main/java/com/distributedLock/Lock.java" />
-        <option value="$PROJECT_DIR$/sc-service-provider-one/src/main/java/com/config/RedisConfig.java" />
-        <option value="$PROJECT_DIR$/sc-service-provider-one/src/main/java/com/distributedLock/DistributedLockHandler.java" />
-        <option value="$PROJECT_DIR$/sc-netflit-zuul/src/main/java/com/filter/TokenCheckFilter.java" />
-        <option value="$PROJECT_DIR$/sc-netflit-feign/src/main/resources/templates/login.html" />
-        <option value="$PROJECT_DIR$/sc-netflit-zuul/src/main/java/com/Test.java" />
-        <option value="$PROJECT_DIR$/sc-netflit-eureka-two/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/sc-netflit-eureka/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/sc-service-provider-one/src/main/java/com/provider/ServiceProvider.java" />
-        <option value="$PROJECT_DIR$/sc-config-server/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/sc-config-server/src/main/java/com/ScConfigServerApplication.java" />
-        <option value="$PROJECT_DIR$/config/sc-config-dev.yml" />
-        <option value="$PROJECT_DIR$/config/sc-config-pro.yml" />
-        <option value="$PROJECT_DIR$/sc-config-server/src/main/resources/config/sc-config-pro.yml" />
-        <option value="$PROJECT_DIR$/sc-config-server/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/sc-config-server/pom.xml" />
-        <option value="$PROJECT_DIR$/sc-native-config/sc-config-dev.yml" />
-        <option value="$PROJECT_DIR$/sc-netflit-zuul/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/sc-netflit-zuul-two/src/main/java/com/filter/FirstFilter.java" />
-        <option value="$PROJECT_DIR$/sc-netflit-zuul-two/src/main/java/com/filter/SessionCheckFilter.java" />
-        <option value="$PROJECT_DIR$/sc-netflit-zuul-two/src/main/java/com/ScNetflitZuulTwoApplication.java" />
-        <option value="$PROJECT_DIR$/nginx/nginx.conf" />
-        <option value="$PROJECT_DIR$/sc-netflit-feign/src/main/resources/templates/footer.html" />
-        <option value="$PROJECT_DIR$/sc-netflit-feign-two/src/main/resources/templates/footer.html" />
-        <option value="$PROJECT_DIR$/sc-netflit-feign-two/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/sc-api/src/main/java/com/App.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/sc-api/src/main/java/com/service/UserService.java" />
-        <option value="$PROJECT_DIR$/sc-api/pom.xml" />
-        <option value="$PROJECT_DIR$/sc-netflit-feign/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/sc-service-provider-one/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/sc-service-provider-two/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/sc-netflit-feign/src/main/resources/templates/user.html" />
-        <option value="$PROJECT_DIR$/sc-netflit-eureka/pom.xml" />
-        <option value="$PROJECT_DIR$/sc-netflit-eureka-two/pom.xml" />
-        <option value="$PROJECT_DIR$/sc-netflit-zuul/pom.xml" />
-        <option value="$PROJECT_DIR$/sc-netflit-zuul-two/pom.xml" />
-        <option value="$PROJECT_DIR$/sc-service-provider-one/pom.xml" />
-        <option value="$PROJECT_DIR$/sc-service-provider-two/pom.xml" />
-        <option value="$PROJECT_DIR$/sc-netflit-zuul/src/main/java/com/filter/SessionCheckFilter.java" />
-        <option value="$PROJECT_DIR$/sc-netflit-zuul/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/sc-netflit-zuul/src/main/java/com/filter/FirstFilter.java" />
-        <option value="$PROJECT_DIR$/sc-service-provider-one/src/main/java/com/controller/HelloController.java" />
-        <option value="$PROJECT_DIR$/sc-netflit-feign/src/main/java/com/ScNetflitFeignApplication.java" />
-        <option value="$PROJECT_DIR$/sc-netflit-feign/src/main/java/com/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/sc-netflit-zuul-two/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/sc-netflit-feign/pom.xml" />
-        <option value="$PROJECT_DIR$/sc-netflit-feign-two/pom.xml" />
-        <option value="$PROJECT_DIR$/sc-netflit-feign-two/src/main/java/com/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/sc-netflit-feign-two/src/main/java/com/ScNetflitFeignTwoApplication.java" />
-        <option value="$PROJECT_DIR$/README.md" />
-      </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -202,16 +223,12 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState />
-  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
-    <option name="y" value="2" />
-    <option name="width" value="1934" />
-    <option name="height" value="1036" />
+    <option name="width" value="1906" />
+    <option name="height" value="1030" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -243,6 +260,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -264,37 +282,18 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../IntelliJWorkSpace/perbank" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15234375" />
-    <property name="project.structure.side.proportion" value="0.35023043" />
-    <property name="SearchEverywhereHistoryKey" value="prolemes&#9;null&#9;null" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.config" />
-      <recent name="com.mapper" />
-      <recent name="com.base" />
-      <recent name="com.controller" />
-      <recent name="com.provider" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="H:\WORK\WebDevelopment\springCloud\sc-api\src\main\java\com" />
-      <recent name="H:\WORK\WebDevelopment\springCloud\nginx" />
-      <recent name="H:\WORK\WebDevelopment\springCloud\sc-netflit-zuul-two" />
-      <recent name="H:\WORK\WebDevelopment\springCloud\sc-config-server\src\main\resources\config" />
-      <recent name="H:\WORK\WebDevelopment\springCloud\sc-service-provider-two" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Spring Boot.ScNetflitFeignApplication">
+  <component name="RunManager" selected="Spring Boot.ScNetflixEurekaApplication">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -522,7 +521,6 @@
       <setting name="cmdLine" value="run-app" />
       <setting name="passParentEnv" value="true" />
       <setting name="launchBrowser" value="true" />
-      <setting name="depsClasspath" value="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
     </configuration>
@@ -601,7 +599,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="sc-netflix-eureka" />
+      <module name="sc-service-provider-one" />
       <envs />
       <method />
     </configuration>
@@ -615,28 +613,6 @@
       <option name="workingDirectory" />
       <option name="isAlternativeJrePathEnabled" value="false" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list />
-            </option>
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -710,12 +686,6 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -731,11 +701,10 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <configuration default="false" name="ScNetflitEurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
+    <configuration default="false" name="ScNetflixDashBoardApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ScNetflitEurekaApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <module name="sc-netflit-eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ScNetflixDashBoardApplication" />
+      <module name="sc-netflix-dashboard" />
       <envs />
       <method />
     </configuration>
@@ -746,42 +715,10 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="ScServiceProviderTwoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration default="false" name="ScNetflixFeignTwoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ScServiceProviderTwoApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <module name="sc-service-provider-two" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="ScNetflitZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ScNetflitZuulApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <module name="sc-netflit-zuul" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="ScNetflitEurekaTwoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ScNetflitEurekaTwoApplication" />
-      <module name="sc-netflit-eureka-two" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="ScNetflitFeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ScNetflitFeignApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <module name="sc-netflit-feign" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="ScNetflitFeignTwoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ScNetflitFeignTwoApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <module name="sc-netflit-feign-two" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ScNetflixFeignTwoApplication" />
+      <module name="sc-netflix-feign-two" />
       <envs />
       <method />
     </configuration>
@@ -792,23 +729,51 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="ScNetflitZuulTwoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration default="false" name="ScNetflixEurekaTwoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ScNetflitZuulTwoApplication" />
-      <module name="sc-netflit-zuul-two" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ScNetflixEurekaTwoApplication" />
+      <module name="sc-netflix-eureka-two" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ScNetflixZuulTwoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ScNetflixZuulTwoApplication" />
+      <module name="sc-netflix-zuul-two" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ScNetflixZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ScNetflixZuulApplication" />
+      <module name="sc-netflix-zuul" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ScNetflixEurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ScNetflixEurekaApplication" />
+      <module name="sc-netflix-eureka" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ScNetflixFeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ScNetflixFeignApplication" />
+      <module name="sc-netflix-feign" />
       <envs />
       <method />
     </configuration>
     <list size="9">
-      <item index="0" class="java.lang.String" itemvalue="Spring Boot.ScNetflitEurekaApplication" />
+      <item index="0" class="java.lang.String" itemvalue="Spring Boot.ScNetflixDashBoardApplication" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.ScServiceProviderOneApplication" />
-      <item index="2" class="java.lang.String" itemvalue="Spring Boot.ScServiceProviderTwoApplication" />
-      <item index="3" class="java.lang.String" itemvalue="Spring Boot.ScNetflitZuulApplication" />
-      <item index="4" class="java.lang.String" itemvalue="Spring Boot.ScNetflitEurekaTwoApplication" />
-      <item index="5" class="java.lang.String" itemvalue="Spring Boot.ScNetflitFeignApplication" />
-      <item index="6" class="java.lang.String" itemvalue="Spring Boot.ScNetflitFeignTwoApplication" />
-      <item index="7" class="java.lang.String" itemvalue="Spring Boot.ScConfigServerApplication" />
-      <item index="8" class="java.lang.String" itemvalue="Spring Boot.ScNetflitZuulTwoApplication" />
+      <item index="2" class="java.lang.String" itemvalue="Spring Boot.ScNetflixFeignTwoApplication" />
+      <item index="3" class="java.lang.String" itemvalue="Spring Boot.ScConfigServerApplication" />
+      <item index="4" class="java.lang.String" itemvalue="Spring Boot.ScNetflixEurekaTwoApplication" />
+      <item index="5" class="java.lang.String" itemvalue="Spring Boot.ScNetflixZuulTwoApplication" />
+      <item index="6" class="java.lang.String" itemvalue="Spring Boot.ScNetflixZuulApplication" />
+      <item index="7" class="java.lang.String" itemvalue="Spring Boot.ScNetflixEurekaApplication" />
+      <item index="8" class="java.lang.String" itemvalue="Spring Boot.ScNetflixFeignApplication" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -819,170 +784,44 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c6cc93bd-1d57-4ce8-a53a-d50cba500908" name="Default" comment="" />
-      <created>1524887231520</created>
+      <changelist id="ae0c0091-14e2-4004-a5b2-75bea990297e" name="Default" comment="" />
+      <created>1570239389420</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1524887231520</updated>
-      <workItem from="1524887233972" duration="38000" />
-      <workItem from="1524887599456" duration="2098000" />
-      <workItem from="1524897561406" duration="10372000" />
-      <workItem from="1524908941253" duration="1330000" />
-      <workItem from="1524968125341" duration="13414000" />
-      <workItem from="1525059232096" duration="8771000" />
-      <workItem from="1525224129591" duration="19579000" />
-      <workItem from="1525265437437" duration="3761000" />
-      <workItem from="1525397478776" duration="13473000" />
-      <workItem from="1525655215649" duration="20501000" />
-      <workItem from="1525743245536" duration="29167000" />
-      <workItem from="1525789451727" duration="5980000" />
-      <workItem from="1525830848897" duration="26030000" />
-      <workItem from="1525915530995" duration="19174000" />
-      <workItem from="1526000843091" duration="372000" />
-      <workItem from="1526001804033" duration="18615000" />
-      <workItem from="1526046302172" duration="8435000" />
-      <workItem from="1526136873514" duration="195000" />
-      <workItem from="1526137449328" duration="476000" />
-      <workItem from="1526137970490" duration="395000" />
-      <workItem from="1526138381420" duration="109000" />
-      <workItem from="1526138578498" duration="1294000" />
-      <workItem from="1526141140112" duration="2258000" />
-      <workItem from="1526260129326" duration="5592000" />
-      <workItem from="1526311851156" duration="2083000" />
-      <workItem from="1526346789067" duration="26627000" />
-      <workItem from="1526389347783" duration="6057000" />
-      <workItem from="1526433039558" duration="19968000" />
-      <workItem from="1526526063216" duration="2008000" />
-      <workItem from="1526629575157" duration="5125000" />
-      <workItem from="1526865942536" duration="2225000" />
-      <workItem from="1526975804016" duration="5383000" />
-      <workItem from="1527037960723" duration="7147000" />
+      <updated>1570239389420</updated>
+      <workItem from="1570239392892" duration="404000" />
     </task>
-    <task id="LOCAL-00001" summary="git commit">
-      <created>1526023220074</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1526023220074</updated>
-    </task>
-    <task id="LOCAL-00002" summary="git commit">
-      <created>1526033856085</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1526033856086</updated>
-    </task>
-    <task id="LOCAL-00003" summary="git commit">
-      <created>1526057954765</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1526057954765</updated>
-    </task>
-    <task id="LOCAL-00004" summary="git commit">
-      <created>1526058127376</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1526058127376</updated>
-    </task>
-    <task id="LOCAL-00005" summary="git commit">
-      <created>1526058532232</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1526058532232</updated>
-    </task>
-    <task id="LOCAL-00006" summary="git commit">
-      <created>1526058969579</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1526058969579</updated>
-    </task>
-    <task id="LOCAL-00007" summary="git commit">
-      <created>1526059179174</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1526059179174</updated>
-    </task>
-    <task id="LOCAL-00008" summary="git commit">
-      <created>1526380481599</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1526380481599</updated>
-    </task>
-    <task id="LOCAL-00009" summary="git commit">
-      <created>1526381235184</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1526381235184</updated>
-    </task>
-    <task id="LOCAL-00010" summary="git commit">
-      <created>1526381256842</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1526381256842</updated>
-    </task>
-    <task id="LOCAL-00011" summary="git commit">
-      <created>1526383201527</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1526383201527</updated>
-    </task>
-    <task id="LOCAL-00012" summary="change sc-api project to a maven project ,not a springboot project">
-      <created>1526460988634</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1526460988634</updated>
-    </task>
-    <task id="LOCAL-00013" summary="add package skip tests">
-      <created>1526463332576</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1526463332576</updated>
-    </task>
-    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="288052000" />
+    <option name="totallyTimeSpent" value="404000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="2" width="1934" height="1036" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="0" width="1906" height="1030" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295063" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295063" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295063" sideWeight="0.5042965" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33727175" sideWeight="0.4890388" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295063" sideWeight="0.49570355" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6854191" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295063" sideWeight="0.49785176" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295063" sideWeight="0.49785176" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22287862" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295063" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.49603623" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.49603623" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6624569" sideWeight="0.49570355" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33333334" sideWeight="0.51096123" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922733" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32922733" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2378178" sideWeight="0.5" order="-1" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -996,50 +835,8 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="git commit" />
-    <MESSAGE value="change sc-api project to a maven project ,not a springboot project" />
-    <MESSAGE value="add package skip tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="add package skip tests" />
-  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/sc-netflit-feign/src/main/java/com/hystrix/UserServiceFallbackFactory.java</url>
-          <line>46</line>
-          <properties />
-          <option name="timeStamp" value="96" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/sc-netflit-feign/src/main/java/com/hystrix/UserServiceFallbackFactory.java</url>
-          <line>41</line>
-          <properties />
-          <option name="timeStamp" value="97" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/sc-netflit-feign/src/main/java/com/hystrix/UserServiceFallbackFactory.java</url>
-          <line>36</line>
-          <properties />
-          <option name="timeStamp" value="98" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/sc-netflit-feign/src/main/java/com/hystrix/UserServiceFallbackFactory.java</url>
-          <line>27</line>
-          <properties />
-          <option name="timeStamp" value="99" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/sc-service-provider-one/src/main/java/com/controller/HelloController.java</url>
-          <line>37</line>
-          <properties />
-          <option name="timeStamp" value="108" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="109" />
-    </breakpoint-manager>
+    <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1047,362 +844,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sc-consumer/src/main/resources/application.yml" />
-    <entry file="file://$PROJECT_DIR$/sc-api/src/main/java/com/entity/BaseVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sc-api/src/main/java/com/entity/Result.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sc-api/src/main/java/com/entity/UserVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sc-api/src/main/java/com/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sc-netflit-feign-two/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sc-netflit-feign/src/main/java/com/config/RedisConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="679">
-          <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sc-netflit-feign/src/main/java/com/apiImpl/UserServiceImplRemote.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sc-service-provider-one/src/main/java/com/mapper/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sc-netflit-feign/src/main/resources/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="82" column="69" selection-start-line="82" selection-start-column="69" selection-end-line="82" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sc-netflit-feign/src/main/resources/templates/user.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="33" column="61" selection-start-line="33" selection-start-column="61" selection-end-line="33" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sc-service-provider-one/src/main/java/com/provider/ServiceProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.1.RELEASE/spring-boot-autoconfigure-2.0.1.RELEASE.jar!/org/springframework/boot/autoconfigure/data/redis/RedisProperties.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="78" column="16" selection-start-line="78" selection-start-column="16" selection-end-line="78" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sc-service-provider-one/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="70" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sc-service-provider-two/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="654">
-          <caret line="70" column="36" selection-start-line="70" selection-start-column="36" selection-end-line="70" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sc-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-889">
-          <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-maven-plugin/2.0.1.RELEASE/spring-boot-maven-plugin-2.0.1.RELEASE.jar!/META-INF/maven/plugin.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="311" column="23" selection-start-line="311" selection-start-column="16" selection-end-line="311" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sc-netflit-zuul/hs_err_pid4876.log" />
-    <entry file="file://$PROJECT_DIR$/sc-netflit-zuul/hs_err_pid14784.log" />
-    <entry file="file://$PROJECT_DIR$/sc-netflit-eureka/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="26" column="58" selection-start-line="25" selection-start-column="8" selection-end-line="26" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sc-netflit-eureka-two/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="26" column="58" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sc-netflit-zuul-two/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="26" column="58" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sc-service-provider-two/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="26" column="58" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.1.RELEASE/spring-boot-autoconfigure-2.0.1.RELEASE.jar!/org/springframework/boot/autoconfigure/web/ServerProperties.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="557" column="20" selection-start-line="557" selection-start-column="20" selection-end-line="557" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sc-netflit-feign/src/test/java/com/ScNetflitFeignApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sc-netflit-zuul/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/session/spring-session-core/2.0.2.RELEASE/spring-session-core-2.0.2.RELEASE.jar!/org/springframework/session/Session.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="34" column="21" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/session/spring-session-core/2.0.2.RELEASE/spring-session-core-2.0.2.RELEASE.jar!/org/springframework/session/web/http/HttpSessionAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1975">
-          <caret line="112" column="28" selection-start-line="112" selection-start-column="21" selection-end-line="112" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/session/spring-session-data-redis/2.0.2.RELEASE/spring-session-data-redis-2.0.2.RELEASE.jar!/org/springframework/session/data/redis/config/annotation/web/http/RedisHttpSessionConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/session/spring-session-data-redis/2.0.2.RELEASE/spring-session-data-redis-2.0.2.RELEASE.jar!/org/springframework/session/data/redis/config/annotation/web/http/EnableRedisHttpSession.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/session/spring-session-data-redis/2.0.2.RELEASE/spring-session-data-redis-2.0.2.RELEASE.jar!/org/springframework/session/data/redis/RedisFlushMode.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nginx/nginx.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-zuul/2.0.0.RC1/spring-cloud-netflix-zuul-2.0.0.RC1.jar!/org/springframework/cloud/netflix/zuul/filters/ZuulProperties.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="139" column="16" selection-start-line="139" selection-start-column="16" selection-end-line="139" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sc-service-provider-one/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/zuul/zuul-core/1.3.1/zuul-core-1.3.1.jar!/com/netflix/zuul/context/RequestContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sc-netflit-zuul/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="125" column="21" selection-start-line="118" selection-start-column="8" selection-end-line="125" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sc-service-provider-one/src/main/java/com/controller/HelloController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="25" column="15" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sc-netflit-zuul/src/main/java/com/ScNetflitZuulApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="145" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sc-netflit-feign/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sc-netflit-zuul/src/main/java/com/filter/FirstFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="38" column="65" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sc-netflit-zuul-two/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="39" column="6" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sc-netflit-feign-two/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="92" column="60" selection-start-line="92" selection-start-column="60" selection-end-line="92" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sc-netflit-feign/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="133" column="37" selection-start-line="123" selection-start-column="8" selection-end-line="133" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="66" selection-start-line="9" selection-start-column="66" selection-end-line="9" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sc-netflit-feign/src/main/java/com/ScNetflitFeignApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sc-netflit-feign-two/src/main/java/com/ScNetflitFeignTwoApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sc-netflit-feign-two/src/main/java/com/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sc-netflit-feign/src/main/java/com/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
-          <folding>
-            <element signature="e#2001#2002#0" expanded="true" />
-            <element signature="e#2035#2036#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sc-netflit-zuul/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="41" column="22" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sc-netflit-zuul/src/main/java/com/filter/SessionCheckFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="85" column="52" selection-start-line="85" selection-start-column="52" selection-end-line="85" selection-end-column="52" />
+        <state relative-caret-position="250">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -1416,7 +861,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.35023043" />
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
@@ -1424,11 +869,11 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring</last-edited>
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.35023043" />
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
@@ -1459,12 +904,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>sc-netflit-eureka</last-edited>
+          <last-edited>sc-netflix-feign</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.35023043" />
-                <option value="0.6" />
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
@@ -1472,7 +916,7 @@
       </state>
       <state key="ProjectJDKs.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>1.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1484,7 +928,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: junit:junit:4.11</last-edited>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1495,8 +939,5 @@
         </settings>
       </state>
     </states>
-  </component>
-  <component name="mavenExecuteGoalHistory">
-    <option value="" />
   </component>
 </project>

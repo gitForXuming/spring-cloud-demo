@@ -3,14 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/sc-api/sc-api.iml" filepath="$PROJECT_DIR$/sc-api/sc-api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/sc-api/src/test/sc-api.iml" filepath="$PROJECT_DIR$/sc-api/src/test/sc-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/sc-config-server/sc-config-server.iml" filepath="$PROJECT_DIR$/sc-config-server/sc-config-server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/sc-netflit-eureka/sc-netflit-eureka.iml" filepath="$PROJECT_DIR$/sc-netflit-eureka/sc-netflit-eureka.iml" />
-      <module fileurl="file://$PROJECT_DIR$/sc-netflit-eureka-two/sc-netflit-eureka-two.iml" filepath="$PROJECT_DIR$/sc-netflit-eureka-two/sc-netflit-eureka-two.iml" />
-      <module fileurl="file://$PROJECT_DIR$/sc-netflit-feign/sc-netflit-feign.iml" filepath="$PROJECT_DIR$/sc-netflit-feign/sc-netflit-feign.iml" />
-      <module fileurl="file://$PROJECT_DIR$/sc-netflit-feign-two/sc-netflit-feign-two.iml" filepath="$PROJECT_DIR$/sc-netflit-feign-two/sc-netflit-feign-two.iml" />
-      <module fileurl="file://$PROJECT_DIR$/sc-netflit-zuul/sc-netflit-zuul.iml" filepath="$PROJECT_DIR$/sc-netflit-zuul/sc-netflit-zuul.iml" />
-      <module fileurl="file://$PROJECT_DIR$/sc-netflit-zuul-two/sc-netflit-zuul-two.iml" filepath="$PROJECT_DIR$/sc-netflit-zuul-two/sc-netflit-zuul-two.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sc-netflix-dashboard/sc-netflix-dashboard.iml" filepath="$PROJECT_DIR$/sc-netflix-dashboard/sc-netflix-dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sc-netflix-eureka/sc-netflix-eureka.iml" filepath="$PROJECT_DIR$/sc-netflix-eureka/sc-netflix-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sc-netflix-eureka-two/sc-netflix-eureka-two.iml" filepath="$PROJECT_DIR$/sc-netflix-eureka-two/sc-netflix-eureka-two.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sc-netflix-feign/sc-netflix-feign.iml" filepath="$PROJECT_DIR$/sc-netflix-feign/sc-netflix-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sc-netflix-feign-two/sc-netflix-feign-two.iml" filepath="$PROJECT_DIR$/sc-netflix-feign-two/sc-netflix-feign-two.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sc-netflix-zuul/sc-netflix-zuul.iml" filepath="$PROJECT_DIR$/sc-netflix-zuul/sc-netflix-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sc-netflix-zuul-two/sc-netflix-zuul-two.iml" filepath="$PROJECT_DIR$/sc-netflix-zuul-two/sc-netflix-zuul-two.iml" />
       <module fileurl="file://$PROJECT_DIR$/sc-service-provider-one/sc-service-provider-one.iml" filepath="$PROJECT_DIR$/sc-service-provider-one/sc-service-provider-one.iml" />
       <module fileurl="file://$PROJECT_DIR$/sc-service-provider-two/sc-service-provider-two.iml" filepath="$PROJECT_DIR$/sc-service-provider-two/sc-service-provider-two.iml" />
       <module fileurl="file://$PROJECT_DIR$/springCloud.iml" filepath="$PROJECT_DIR$/springCloud.iml" />

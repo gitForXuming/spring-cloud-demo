@@ -24,29 +24,30 @@
         <processorPath useClasspath="true" />
         <module name="sc-api" />
         <module name="sc-config-server" />
-        <module name="sc-netflit-eureka" />
-        <module name="sc-netflit-eureka-two" />
-        <module name="sc-netflit-feign" />
-        <module name="sc-netflit-feign-two" />
-        <module name="sc-netflit-zuul" />
-        <module name="sc-netflit-zuul-two" />
+        <module name="sc-netflix-dashboard" />
+        <module name="sc-netflix-eureka" />
+        <module name="sc-netflix-eureka-two" />
+        <module name="sc-netflix-feign" />
+        <module name="sc-netflix-feign-two" />
+        <module name="sc-netflix-zuul" />
+        <module name="sc-netflix-zuul-two" />
         <module name="sc-service-provider-one" />
         <module name="sc-service-provider-two" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="sc-api" target="1.7" />
+      <module name="sc-api" target="1.8" />
       <module name="sc-config-server" target="1.8" />
-      <module name="sc-consumer" target="1.8" />
-      <module name="sc-netflit-eureka" target="1.8" />
-      <module name="sc-netflit-eureka-two" target="1.8" />
-      <module name="sc-netflit-feign" target="1.8" />
-      <module name="sc-netflit-feign-two" target="1.8" />
-      <module name="sc-netflit-zuul" target="1.8" />
-      <module name="sc-netflit-zuul-two" target="1.8" />
+      <module name="sc-netflix-dashboard" target="1.8" />
+      <module name="sc-netflix-eureka" target="1.8" />
+      <module name="sc-netflix-eureka-two" target="1.8" />
+      <module name="sc-netflix-feign" target="1.8" />
+      <module name="sc-netflix-feign-two" target="1.8" />
+      <module name="sc-netflix-zuul" target="1.8" />
+      <module name="sc-netflix-zuul-two" target="1.8" />
       <module name="sc-service-provider-one" target="1.8" />
       <module name="sc-service-provider-two" target="1.8" />
-      <module name="springCloud" target="1.7" />
+      <module name="springCloud" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -2,18 +2,15 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/nginx/nginx.conf" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/sc-api" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/sc-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sc-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sc-config-server" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/sc-consumer" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/sc-netflit-eureka" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/sc-netflit-eureka-two" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/sc-netflit-feign" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/sc-netflit-feign-two" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/sc-netflit-zuul" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/sc-netflit-zuul-two" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sc-netflix-dashboard" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sc-netflix-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sc-netflix-eureka-two" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sc-netflix-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sc-netflix-feign-two" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sc-netflix-zuul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sc-netflix-zuul-two" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sc-service-provider-one" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sc-service-provider-two" charset="UTF-8" />
   </component>

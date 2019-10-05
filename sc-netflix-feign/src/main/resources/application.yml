@@ -1,0 +1,94 @@
+server:
+  port: 8082
+  tomcat:
+    accept-count: 1000
+    max-threads: 1000
+    max-connections: 2000
+  servlet:
+    context-path: "/demo"
+spring:
+  application:
+    name: sc-feign
+  resources: #设置可直接访问静态文件
+    static-locations: classpath:/resources/,classpath:/static/,classpath:/templates
+  thymeleaf:
+    cache: false
+    prefix: classpath:/templates/
+    suffix: .html
+    encoding: utf-8
+    check-template-location: true
+    mode: LEGACYHTML5
+  # redis
+  redis:
+    host: localhost
+    port: 6379
+    timeout: 10000
+    pool:
+      max-active: 8
+      max-idle: 8
+      min-idle: 1
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+       defaultZone: http://127.0.0.1:8761/eureka,http://127.0.0.1:8762/eureka
+
+
+ribbon:
+  ConnectTimeout: 5000
+  eager-load:
+    enabled: true  #饥饿加载模式 启动的时候就创建ribbon客户端
+    clients: sc-service-provider   #以逗号隔开
+
+hystrix:
+  command:
+    default:
+      execution:
+        timeout:
+          enabled: false
+        isolation:
+          thread:
+            timeoutInMilliseconds: 5000
+  dashboard:
+    init-parameters:
+#开启断路器 这个地方idea报找不到 实际必须配置 不然hystrix不生效  服务降级
+feign:
+  hystrix:
+    enabled: true
+
+hystrix:
+  threadpool:
+    default:
+      coreSize: 30
+      maximumSize: 10
+#
+sc-service-provider:
+  ribbon:
+    ConnectTimeout: 5000
+    ReadTimeout: 10000
+
+#服务过期时间配置,超过这个时间没有接收到心跳EurekaServer就会将这个实例剔除
+#注意，EurekaServer一定要设置eureka.server.eviction-interval-timer-in-ms否则这个配置无效，这个配置一般为服务刷新时间配置的三倍
+#默认90s
+eureka:
+  instance:
+    lease-expiration-duration-in-seconds: 30
+#服务刷新时间配置，每隔这个时间会主动心跳一次
+#默认30s
+eureka:
+  instance:
+    lease-renewal-interval-in-seconds: 15
+#eureka client刷新本地缓存时间
+#默认30s
+eureka:
+  client:
+    registryFetchIntervalSeconds: 15
+
+
+hystrix:
+  metrics:
+    polling-interval-ms:
+
+
+
